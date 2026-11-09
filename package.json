@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mapillary-js": "^4.1.2",
+    "maplibre-gl": "^6.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.8"
+  },
+  "name": "geoquest-bulgaria",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "coverage": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/coverage.ts",
+    "test": "node --experimental-strip-types --disable-warning=ExperimentalWarning --test tests/*.test.ts"
+  },
+  "private": true,
+  "type": "module"
+}

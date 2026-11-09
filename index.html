@@ -1,62 +1,58 @@
-<!DOCTYPE html>
-<html lang="bg">
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="GeoQuest Bulgaria — научи географията на България чрез игра.">
+  <link rel="icon" href="./favicon.svg">
   <title>GeoQuest Bulgaria</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="index.html"><span class="brand-mark">G</span><span>GeoQuest <b>Bulgaria</b></span></a>
-    <nav class="header-actions">
-      <button class="language-button" id="languageToggle" type="button">EN</button>
-    </nav>
-  </header>
-
-  <main class="home-main">
-    <section class="hero">
-      <div class="hero-copy">
-        <span class="eyebrow" data-i18n="homeEyebrow">ОТКРИЙ БЪЛГАРИЯ ПО НОВ НАЧИН</span>
-        <h1 data-i18n="homeTitle">Колко добре познаваш <span>България?</span></h1>
-        <p class="hero-description" data-i18n="homeDescription">Разгледай снимката, открий мястото върху картата и събери точки. Пет въпроса те делят от титлата Географски експерт.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="gamepages/game.html" data-i18n="startGame">Започни играта <span aria-hidden="true">→</span></a>
-          <a class="button button-secondary" href="#how-to-play" data-i18n="howToPlay">Как се играе?</a>
-        </div>
-        <div class="hero-stats">
-          <div><strong>5</strong><span data-i18n="questions">въпроса</span></div>
-          <div><strong>5 000</strong><span data-i18n="maxPoints">максимум точки</span></div>
-          <div><strong>BG / EN</strong><span data-i18n="languages">езика</span></div>
-        </div>
-      </div>
-      <div class="hero-visual" aria-label="Илюстрация на планински пейзаж">
-        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
-        <div class="mountain-scene">
-          <div class="sun"></div><div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
-          <div class="map-pin"><span>●</span></div>
-          <div class="visual-label"><span class="pulse-dot"></span><span data-i18n="exploreBulgaria">Изследвай България</span></div>
-        </div>
-      </div>
+  <main>
+    <header class="masthead">
+      <a class="brand" href="./">GeoQuest <span>Bulgaria</span></a>
+      <a class="lab-link" href="./lab.html">Panorama Lab</a>
+      <p id="progress" hidden></p>
+    </header>
+    <section id="home" class="home">
+      <p class="eyebrow">THE BULGARIA CHALLENGE</p>
+      <h1>Where in Bulgaria?</h1>
+      <p>Explore five street-level panoramas and pin each location on the map. Take your time: there’s no clock to beat.</p>
+      <form id="start">
+        <fieldset>
+          <legend>Choose your mode</legend>
+          <label><input type="radio" name="mode" value="classic" checked> <span><strong>Classic</strong><small>Move, look around, and zoom</small></span></label>
+          <label><input type="radio" name="mode" value="no-move"> <span><strong>No Move</strong><small>Look around and zoom from one spot</small></span></label>
+        </fieldset>
+        <button class="primary" type="submit">Play</button>
+      </form>
     </section>
-
-    <section class="how-section" id="how-to-play">
-      <div class="section-heading">
-        <span class="eyebrow" data-i18n="simpleRules">ЛЕСНО Е</span>
-        <h2 data-i18n="howTitle">Три стъпки до победата</h2>
+    <section id="stage" class="stage" aria-label="Game round" hidden>
+      <div id="viewer" hidden></div>
+      <div id="loading" class="loading" hidden><p id="load-status" role="status"></p><button id="retry" type="button" hidden>Retry round</button></div>
+      <div id="explore" class="explore" hidden>
+        <p id="explore-status" role="status"></p>
+        <div id="moves" class="moves" aria-label="Explore connected images"></div>
       </div>
-      <div class="steps-grid">
-        <article class="step-card"><div class="step-number">01</div><div class="step-icon">◉</div><h3 data-i18n="step1Title">Разгледай снимката</h3><p data-i18n="step1Text">Виж географския обект и помисли къде се намира.</p></article>
-        <article class="step-card"><div class="step-number">02</div><div class="step-icon">⌖</div><h3 data-i18n="step2Title">Постави маркер</h3><p data-i18n="step2Text">Избери място върху интерактивната карта на България.</p></article>
-        <article class="step-card"><div class="step-number">03</div><div class="step-icon">★</div><h3 data-i18n="step3Title">Събери точки</h3><p data-i18n="step3Text">Колкото по-точен си, толкова повече точки получаваш.</p></article>
+      <div id="results" class="results" hidden>
+        <div class="result-content">
+          <p id="result-label" class="eyebrow"></p>
+          <h1 id="result-title" tabindex="-1"></h1>
+          <p id="result-stats"></p>
+          <p class="legend"><span class="guess-key">●</span> Your guess <span class="actual-key">●</span> Actual location</p>
+          <ol id="round-scores" hidden></ol>
+          <button id="next" class="primary" type="button"></button>
+        </div>
       </div>
+      <div id="map-panel" class="map-panel" hidden>
+        <button id="toggle-map" type="button" aria-expanded="false" aria-controls="map">Expand map</button>
+        <div id="map" aria-label="Location map"></div>
+        <p id="map-error" role="status" hidden></p>
+        <button id="guess" class="primary" type="button" disabled>GUESS</button>
+      </div>
+      <p id="credits" class="credits" hidden>Imagery: <span id="creator"></span><a href="https://www.mapillary.com/">Mapillary</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></p>
     </section>
   </main>
-  <footer class="site-footer"><span>© 2026 GeoQuest Bulgaria</span><span data-i18n="footerText">Учи. Откривай. Играй.</span></footer>
-  <script type="module" src="js/main.js"></script>
+  <script type="module" src="/src/play.ts"></script>
 </body>
 </html>
+

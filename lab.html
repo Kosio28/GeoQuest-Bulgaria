@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.svg">
+    <title>GeoQuest Bulgaria | Panorama Lab</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">GeoQuest Bulgaria · Phase 1</p>
+        <h1>Panorama Lab</h1>
+        <p>Explore Bulgarian street-level imagery and test its coverage.</p>
+      </header>
+      <div class="layout">
+        <section aria-label="Panorama viewer">
+          <div id="stage">
+            <div id="viewer"></div>
+            <p id="placeholder">Load a Bulgarian panorama to start.</p>
+            <button id="fullscreen" type="button">Fullscreen</button>
+            <p class="credits"><a href="https://www.mapillary.com/">Mapillary</a>
+              <span id="image-credit" hidden> · <a id="image-link">Image</a>
+                <span id="author-credit" hidden> by <a id="author-link"></a></span>
+                · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+              </span>
+            </p>
+          </div>
+          <p class="hint">Drag to look around, up or down. Scroll or use the viewer buttons to zoom.</p>
+        </section>
+        <aside aria-label="Developer controls">
+          <div class="actions">
+            <button id="random" type="button">Load random panorama</button>
+            <button id="scan" type="button">Scan coverage</button>
+          </div>
+          <form id="lookup">
+            <label for="lookup-id">Mapillary image ID</label>
+            <div class="actions">
+              <input id="lookup-id" inputmode="numeric" pattern="[0-9]+" required>
+              <button id="load-id" type="submit">Load ID</button>
+            </div>
+          </form>
+          <p id="status" role="status">Ready.</p>
+          <p id="error" role="alert" hidden></p>
+          <dl>
+            <div><dt>Sample area</dt><dd id="area">—</dd></div>
+            <div><dt>Coordinates</dt><dd id="coords">—</dd></div>
+            <div><dt>Image ID</dt><dd id="image-id">—</dd></div>
+            <div><dt>Panoramic</dt><dd id="panoramic">—</dd></div>
+            <div><dt>Dimensions</dt><dd id="dimensions">—</dd></div>
+          </dl>
+          <h2>Navigation connections</h2>
+          <p id="connections">Load an image to inspect its connections.</p>
+          <ul id="edges"></ul>
+        </aside>
+      </div>
+      <details id="coverage">
+        <summary>Coverage samples</summary>
+        <p>Each row is a small sample window. Counts reflect one capped API response.</p>
+        <ul id="samples"></ul>
+      </details>
+      <footer>Boundary data from <a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth</a>.</footer>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+

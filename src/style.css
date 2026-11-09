@@ -1,0 +1,46 @@
+:root {
+  color-scheme: dark;
+  font: 16px/1.5 system-ui, sans-serif;
+  background: #101617;
+  color: #e9f2ef;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+main { max-width: 80rem; margin: auto; padding: clamp(1rem, 4vw, 3rem); }
+header p, h1 { margin: 0; }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.2; }
+h2 { font-size: 1rem; }
+.eyebrow { color: #91e3bd; font-size: .85rem; font-weight: 700; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(17rem, 21rem); gap: 1.25rem; margin-top: 1.5rem; }
+aside, details { background: #182122; border: 1px solid #334544; border-radius: .75rem; padding: 1rem; }
+#stage { position: relative; min-height: 20rem; height: clamp(20rem, 55vh, 42rem); background: #0a1010; border-radius: .75rem; overflow: hidden; }
+#stage:fullscreen { width: 100%; height: 100%; border-radius: 0; }
+#stage.expanded { position: fixed; inset: 0; z-index: 10; width: 100%; height: 100%; border-radius: 0; }
+body:has(#stage.expanded) { overflow: hidden; }
+#viewer { position: absolute; inset: 0; }
+#placeholder { position: absolute; inset: 0; display: grid; place-items: center; margin: 0; padding: 2.5rem; text-align: center; pointer-events: none; }
+#fullscreen { position: absolute; top: .75rem; right: .75rem; }
+.credits { position: absolute; right: .6rem; bottom: .35rem; margin: 0; padding: .2rem .5rem; background: #101617; border-radius: .25rem; font-size: .8rem; }
+a { color: #9ce6c4; }
+.hint, footer, #connections { color: #b8c8c5; }
+.actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+button { padding: .5rem .7rem; border: 1px solid #64817b; border-radius: .4rem; background: #223230; color: inherit; font: inherit; cursor: pointer; }
+#random { background: #96e9bf; color: #101617; font-weight: 700; }
+button:disabled { opacity: .5; cursor: default; }
+#lookup { margin-top: .8rem; }
+input { width: 10rem; max-width: 100%; padding: .35rem; background: #101617; border: 1px solid #64817b; border-radius: .4rem; color: inherit; font: inherit; }
+#error { color: #ffb7a7; overflow-wrap: anywhere; }
+dl { margin: 1rem 0; }
+dl div { display: grid; grid-template-columns: 6.5rem 1fr; gap: .5rem; padding: .35rem 0; border-bottom: 1px solid #334544; }
+dt { color: #b8c8c5; }
+dd { margin: 0; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+#edges { padding: 0; margin: 0; list-style: none; display: flex; flex-wrap: wrap; gap: .4rem; }
+#edges button { font-size: .85rem; }
+details { margin-top: 1rem; }
+summary { cursor: pointer; }
+footer { margin-top: 1rem; font-size: .85rem; }
+
+@media (max-width: 48rem) {
+  .layout { grid-template-columns: 1fr; }
+}

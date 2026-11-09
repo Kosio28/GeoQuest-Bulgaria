@@ -1,162 +1,54 @@
-# 🧭 GeoQuest Bulgaria
+# GeoQuest Bulgaria
 
-**GeoQuest Bulgaria** е образователна браузър игра, създадена с цел да помага на учениците от 5. до 8. клас да упражняват и подобряват знанията си по география на България по забавен и интерактивен начин.
+GeoQuest Bulgaria е училищен проект на **Константин и Илиан**, ученици в 10. клас. Идеята е ученици от 5. до 8. клас да упражняват географията на България, като разпознават места по снимки и ги посочват на карта.
 
-Вместо да учат само от учебници и карти, играчите трябва да разпознават различни географски обекти и да посочват тяхното местоположение върху интерактивна карта.
+## Как ще се играе
 
----
+1. Виждаш снимка на място в България.
+2. Поставяш маркер върху картата и потвърждаваш предположението си.
+3. Виждаш правилното място, разстоянието до твоя маркер, спечелените точки и кратък географски факт.
+4. След пет рунда получаваш общ резултат.
 
-## 🎯 Основна идея
+Планирани са три нива. След две точни предположения поред трудността се повишава с едно ниво, а след две неточни поред се понижава. Предвидени са тренировка с избор на област, регистрация, лична история и класация. За първата версия ще използваме статични снимки с разрешен лиценз.
 
-Играчът получава въпрос, снимка или описание на географски обект в България. Неговата задача е да постави маркер на картата там, където смята, че се намира обектът.
+## Технологии
 
-След потвърждаване на отговора играта показва:
-- Избраното от играча местоположение.
-- Правилното местоположение.
-- Разстоянието между двата маркера.
-- Спечелените точки.
-- Интересен факт за съответния географски обект.
+- **HTML, CSS и JavaScript** за интерфейса и играта.
+- **Leaflet** за интерактивната карта и маркерите.
+- **Supabase** за профилите, съхранението на резултатите и правата за достъп.
 
-Една игра се състои от 5 въпроса, като максималният резултат е 5000 точки.
+## Етап 1
 
-## ✨ Основни функционалности
+Срокът за етапа е **14 ноември 2026 г.** Локално са подготвени проучване на три сходни игри, план, два означени макета, модел на базата с ER диаграма, 12 описания на задачи и чернова на седмичния отчет. Играта и базата предстои да се разработят.
 
-- **Интерактивна карта:** Играчът може да избира местоположение чрез поставяне на маркер.
-- **Географски въпроси:** Въпроси за планини, върхове, градове, езера, пещери и други обекти в България.
-- **Система за оценяване:** Точките зависят от разстоянието между избраното и действителното местоположение.
-- **Интересни факти:** След всеки отговор се показва допълнителна информация за обекта.
-- **Прогрес:** Показват се текущият въпрос, напредъкът и събраният резултат.
-- **Резултати:** След петия въпрос играчът вижда крайния си резултат.
-- **Езиков избор:** Интерфейсът поддържа български и английски език.
-- **Повторна игра:** Играчът може да започне нова игра.
+Планираната структура е `docs/` за документацията и макетите, `database/` за модела на данните, `src/` за играта, `tests/` за тестовете и `presentation/` за материалите за защита.
 
-## 🏆 Система за оценяване
+## Play the prototype
 
-Точките се определят според разстоянието между избрания отговор и правилните координати.
+The home page now runs a five-round game. Choose **Classic** to follow connected imagery, or **No Move** to stay on the starting panorama. Both modes let you look around and zoom without a time limit. Expand the guessing map, click to place or move your pin, and select **GUESS**. Each round is worth up to 5,000 points; the game summary shows your score, distances, and elapsed time.
 
-| Разстояние | Точки |
-|---|---:|
-| До 5 km | 1000 |
-| До 15 km | 800 |
-| До 30 km | 600 |
-| До 60 km | 400 |
-| До 100 km | 200 |
-| Над 100 km | 100 |
+The game uses MapLibre GL JS and the [OpenStreetMap Standard tile service](https://operations.osmfoundation.org/policies/tiles/) for interactive, on-demand map browsing. Keep the attribution visible. The curated Mapillary pool is selected without repeats within a game, and starting captures are checked against Mapillary and the Bulgarian boundary before a round starts.
 
-**Максимален резултат: 5000 точки.**
+Run **npm test** for distance, scoring, and round progression checks.
 
-Разстоянието се изчислява чрез формулата Haversine, която използва географските координати на двете точки.
+## Setup and Panorama Lab
 
-## 🛠️ Използвани технологии
+The TypeScript prototype uses MapillaryJS and Vite. Use Node.js 22.12 or later.
 
-| Технология | Предназначение |
-|---|---|
-| HTML5 | Структура на уебсайта |
-| CSS3 | Дизайн, оформление и адаптивност |
-| JavaScript | Игрова логика и интерактивност |
-| Leaflet.js | Интерактивна географска карта |
-| OpenStreetMap | Картографски данни |
-| Supabase | База данни и съхранение на географската информация |
+1. Sign in to the [Mapillary developer dashboard](https://www.mapillary.com/dashboard/developers), choose **Register application**, and enable the **READ** scope for public imagery. Copy the application's **Access Token**. Vite makes this client token available to the browser. Keep the client secret and any user access token out of the project.
+2. In the project root, beside `package.json`, create or edit `.env.local` and save this line with your actual client access token:
 
-## 📁 Структура на проекта
+   ```dotenv
+   VITE_MAPILLARY_ACCESS_TOKEN=your_client_access_token_here
+   ```
 
-```text
-GeoQuest-Bulgaria/
-│
-├── index.html
-│
-├── pages/
-│   ├── game.html
-│   └── results.html
-│
-├── css/
-│   ├── style.css
-│   ├── game.css
-│   └── responsive.css
-│
-├── js/
-│   ├── supabase.js
-│   ├── translations.js
-│   ├── main.js
-│   ├── scoring.js
-│   ├── game.js
-│   └── results.js
-│
-└── README.md
-```
+   Keep [the example configuration](.env.example) free of credentials. Run `git check-ignore -v .env.local` to verify the ignore rule and `git ls-files -- .env.local` to confirm the file is untracked. The second command should print nothing.
+3. Run `npm ci` and then `npm run dev`. Restart Vite if it was running when you saved the token. Open the local URL printed by Vite and select **Play**. Open **Panorama Lab** from the home page for the Phase 1 controls: **Load random panorama**, manual ID lookup, and **Scan coverage**.
 
-## 🗄️ База данни – Supabase
+To verify navigation with a known capture, enter `881801330329324` under **Mapillary image ID** and select **Load ID**. The lab should identify the Sofia capture as spherical. Under **Navigation connections**, choose **Next · 558486230070761** if it appears and confirm that the displayed image ID changes.
 
-Проектът използва Supabase за съхранение и извличане на информация за географските обекти и въпросите.
+Drag the panorama to turn or look up and down. Scroll or use the zoom buttons. Use the connection buttons to navigate and the fullscreen button to expand the viewer. If the browser declines native fullscreen, the viewer fills the browser viewport.
 
-Базата данни съдържа три основни таблици:
+Run `npm run build` for type checking and a production build. Run `npm run coverage` for a fresh terminal sample with the same token. Interactive imagery needs network access and WebGL.
 
-### 1. regions
-Съхранява информация за географските региони.
-
-- `id` – уникален идентификатор.
-- `name` – име на региона.
-- `description` – описание.
-
-### 2. locations
-Съхранява географските обекти и техните координати.
-
-- `id` – уникален идентификатор.
-- `region_id` – връзка с региона.
-- `name` – име на обекта.
-- `latitude` – географска ширина.
-- `longitude` – географска дължина.
-- `fact` – интересен факт за обекта.
-
-### 3. challenges
-Съхранява въпросите в играта.
-
-- `id` – уникален идентификатор.
-- `location_id` – връзка с географския обект.
-- `image_url` – адрес на изображението.
-- `difficulty` – ниво на трудност.
-- `question` – текст на въпроса.
-
-**Връзки между таблиците:**
-
-- Един регион може да съдържа множество географски обекти.
-- Един географски обект може да има множество въпроси.
-
-## 🚀 Стартиране на проекта
-
-### Необходими инструменти
-- Visual Studio Code.
-- Разширението Live Server.
-- Интернет връзка.
-- Supabase проект с конфигурирани таблици и политики за достъп.
-
-### Стъпки за стартиране
-
-1. Изтеглете или клонирайте проекта.
-2. Отворете папката `GeoQuest-Bulgaria` във Visual Studio Code.
-3. Отворете файла `js/supabase.js`.
-4. Добавете данните за вашия Supabase проект:
-   - Project URL.
-   - Publishable Key.
-5. Уверете се, че таблиците и необходимите връзки в Supabase са създадени.
-6. Стартирайте `index.html` чрез Live Server.
-7. Натиснете бутона за започване на играта.
-
-**Важно:** Не използвайте `service_role` или Secret Key в браузърния код. За публичния клиент използвайте само Publishable Key и настройте подходящи RLS политики.
-
-## 👥 Екип
-
-Проектът е разработен като училищен проект от:
-
-- **Илиан** – програмиране, техническа реализация, база данни и документация.
-- **Константин (Косьо)** – дизайн, визуална идентичност, оформление и потребителски интерфейс.
-
-## 📌 Цел на проекта
-
-Основната цел на GeoQuest Bulgaria е да направи изучаването на географията по-достъпно, интересно и интерактивно.
-
-Проектът съчетава образованието и технологиите, като насърчава учениците да развиват географските си познания, пространственото си мислене и способността си да разпознават местоположения върху карта.
-
----
-
-**GeoQuest Bulgaria – Научи България, докато играеш!** 🧭
+See the [Bulgaria coverage report](docs/MAPILLARY_COVERAGE.md) for results, scope, and data sources.

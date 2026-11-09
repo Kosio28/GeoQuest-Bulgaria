@@ -1,0 +1,8 @@
+erDiagram
+ AUTH_USERS ||--o| PROFILES : profile
+ PROFILES ||--o{ SESSIONS : owns
+ REGIONS ||--o{ LOCATIONS_PRIVATE : contains
+ REGIONS o|--o{ SESSIONS : optional_filter
+ LOCATIONS_PRIVATE ||--o{ QUESTIONS : depicts
+ SESSIONS ||--o{ ATTEMPTS : contains_up_to_five
+ QUESTIONS ||--o{ ATTEMPTS : answered
