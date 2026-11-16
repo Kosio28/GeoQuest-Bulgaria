@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101820">
+  <title>GeoQuest Bulgaria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" data-view="home" aria-label="GeoQuest начало">
+        <span class="brand-mark">G<span>Q</span></span>
+        <span class="brand-name">GEOQUEST <b>BULGARIA</b></span>
+      </a>
+      <nav class="main-nav" aria-label="Основна навигация">
+        <button class="nav-link active" data-view="home">Начало</button>
+        <button class="nav-link" data-view="practice">Тренировка</button>
+        <button class="nav-link" data-view="leaderboard">Класация</button>
+        <button class="nav-link" data-view="history">История</button>
+      </nav>
+      <button class="profile-button" id="profileButton">
+        <span class="avatar" id="avatarInitials">И</span>
+        <span id="headerUsername">Играч</span>
+        <span class="chevron">⌄</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="view active" id="homeView">
+        <div class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="pulse"></span> ОТКРИЙ БЪЛГАРИЯ</div>
+            <h1>Колко добре<br>познаваш <em>България?</em></h1>
+            <p>Разпознавай места по снимки, поставяй маркер на картата и събирай точки. Учи, докато играеш.</p>
+            <div class="hero-actions">
+              <button class="button button-primary" id="startGameButton">Започни игра <span>↗</span></button>
+              <button class="button button-ghost" data-view="practice">Тренирай по област</button>
+            </div>
+            <div class="hero-meta">
+              <div><strong>5</strong><span>рундa в игра</span></div>
+              <i></i>
+              <div><strong>3</strong><span>нива на трудност</span></div>
+              <i></i>
+              <div><strong>28+</strong><span>места за откриване</span></div>
+            </div>
+          </div>
+          <div class="hero-art">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="hero-map-card">
+              <div class="map-grid"></div>
+              <svg viewBox="0 0 420 390" role="img" aria-label="Стилизирана карта на България">
+                <defs><linearGradient id="land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8f58b"/><stop offset="1" stop-color="#86b85e"/></linearGradient></defs>
+                <path d="M67 105 L105 85 137 91 160 73 194 88 220 76 245 95 280 86 305 107 340 112 353 139 333 159 346 184 324 203 337 231 310 251 292 281 260 288 241 311 208 297 183 317 157 297 130 305 111 279 82 274 73 246 49 227 61 199 42 174 59 149 48 125Z" fill="url(#land)" stroke="#f4f8df" stroke-width="5" stroke-linejoin="round"/>
+                <path d="M75 165 Q150 143 218 169 T330 160 M82 225 Q180 200 318 224 M145 94 Q165 180 158 292 M245 95 Q220 190 260 288" fill="none" stroke="#6c9656" stroke-width="2" opacity=".6" stroke-dasharray="5 7"/>
+                <circle cx="209" cy="184" r="8" fill="#f7a65a" stroke="#fff" stroke-width="4"/><circle cx="209" cy="184" r="18" fill="none" stroke="#f7a65a" stroke-width="2" opacity=".5"/>
+                <circle cx="280" cy="240" r="6" fill="#f7a65a" stroke="#fff" stroke-width="3"/><circle cx="135" cy="245" r="6" fill="#f7a65a" stroke="#fff" stroke-width="3"/>
+              </svg>
+              <span class="map-tag tag-top">42° 41′ N · 23° 19′ E</span>
+              <span class="map-tag tag-bottom">БЪЛГАРИЯ</span>
+              <span class="floating-pin">⌖</span>
+            </div>
+            <div class="float-card float-score"><span class="float-icon">✦</span><div><b>2 450 XP</b><small>Твоят напредък</small></div></div>
+            <div class="float-card float-place"><span class="place-icon">⌖</span><div><b>Ново място!</b><small>Открий следващото</small></div></div>
+          </div>
+        </div>
+
+        <div class="section-heading">
+          <div><div class="eyebrow">ИЗБЕРИ СВОЕТО ПРЕДИЗВИКАТЕЛСТВО</div><h2>Готов ли си за приключение?</h2></div>
+          <span class="section-note">Учи чрез игра · 5–8 клас</span>
+        </div>
+        <div class="mode-grid">
+          <article class="mode-card mode-featured">
+            <div class="mode-icon">◉</div><span class="mode-label">НАЙ-ИГРАН РЕЖИМ</span>
+            <h3>Класическа игра</h3><p>Пет снимки. Пет предположения. Един общ резултат.</p>
+            <button class="text-button" id="classicCardButton">Играй сега <span>→</span></button>
+            <div class="card-decoration">01</div>
+          </article>
+          <article class="mode-card">
+            <div class="mode-icon icon-orange">⌖</div><span class="mode-label">УЧИ И УПРАЖНЯВАЙ</span>
+            <h3>Тренировка</h3><p>Избери област и подобри знанията си без напрежение.</p>
+            <button class="text-button" data-view="practice">Избери област <span>→</span></button>
+            <div class="card-decoration">02</div>
+          </article>
+          <article class="mode-card">
+            <div class="mode-icon icon-purple">♛</div><span class="mode-label">СЪСТЕЗАВАЙ СЕ</span>
+            <h3>Класация</h3><p>Виж резултатите и се изкачи на върха.</p>
+            <button class="text-button" data-view="leaderboard">Виж класацията <span>→</span></button>
+            <div class="card-decoration">03</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="view" id="gameView">
+        <div class="game-topline">
+          <button class="back-button" data-view="home">← Начало</button>
+          <div class="round-progress"><span id="roundLabel">РУНД 1 / 5</span><div class="progress-track"><div id="progressFill"></div></div></div>
+          <div class="difficulty-pill"><span class="difficulty-dot"></span><span id="difficultyLabel">НИВО 1 · ЛЕСНО</span></div>
+        </div>
+        <div class="game-layout">
+          <aside class="challenge-panel">
+            <div class="panel-kicker">ПОЗНАЙ МЯСТОТО</div>
+            <div class="photo-frame">
+              <img id="locationImage" src="" alt="Снимка на географско място">
+              <div class="photo-overlay"></div>
+              <span class="photo-tag">БЪЛГАРИЯ</span>
+              <span class="photo-caption" id="photoCaption">Къде се намира това място?</span>
+            </div>
+            <div class="challenge-info">
+              <div class="challenge-title-row"><div><span class="muted-label">ТВОЯТА ЗАДАЧА</span><h2>Открий локацията</h2></div><span class="round-number" id="roundNumber">01</span></div>
+              <p>Постави маркер на картата там, където според теб се намира мястото от снимката.</p>
+              <div class="hint-box"><span>✦</span><div><b>Подсказка</b><small id="locationHint">Разгледай внимателно пейзажа.</small></div></div>
+              <div class="guess-status" id="guessStatus">Избери място върху картата, за да поставиш маркер.</div>
+              <button class="button button-primary button-full" id="confirmGuess" disabled>Потвърди предположението <span>→</span></button>
+            </div>
+          </aside>
+          <section class="map-panel">
+            <div class="map-toolbar"><div><span class="map-title">КАРТА НА БЪЛГАРИЯ</span><small>Кликни върху картата, за да поставиш маркер</small></div><button class="map-control" id="resetMarker" title="Премахни маркера">↺</button></div>
+            <div id="gameMap"></div>
+            <div class="map-legend"><span><i class="legend-dot guess-dot"></i> Твоето предположение</span><span><i class="legend-dot correct-dot"></i> Правилно място</span><span class="map-hint">Можеш да преместваш маркера</span></div>
+          </section>
+        </div>
+        <div class="game-footer"><span>GEOQUEST BULGARIA</span><span>Точността носи точки. Любопитството носи знания.</span><span id="scoreLive">0 точки</span></div>
+      </section>
+
+      <section class="view" id="resultView">
+        <div class="result-wrap">
+          <div class="eyebrow">РУНДЪТ Е ЗАВЪРШЕН</div>
+          <h1 id="resultTitle">Добра работа!</h1>
+          <p class="result-subtitle" id="resultSubtitle">Ето колко близо беше до правилното място.</p>
+          <div class="result-card">
+            <div class="result-image"><img id="resultImage" src="" alt=""><span class="result-image-label">ПРАВИЛНО МЯСТО</span></div>
+            <div class="result-details">
+              <span class="muted-label">ТЪРСЕНО МЯСТО</span><h2 id="resultPlace">Рилски манастир</h2>
+              <p id="resultFact">Географски факт за мястото.</p>
+              <div class="result-stats"><div><small>РАЗСТОЯНИЕ</small><b id="resultDistance">—</b></div><div><small>СПЕЧЕЛЕНИ ТОЧКИ</small><b class="green-text" id="resultPoints">+0</b></div></div>
+              <button class="button button-primary button-full" id="nextRoundButton">Следващ рунд <span>→</span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="view" id="finalView">
+        <div class="final-card">
+          <div class="trophy">🏆</div><div class="eyebrow">ПРИКЛЮЧЕНИЕТО ЗАВЪРШИ</div>
+          <h1>Браво, <em id="finalName">откривателю</em>!</h1>
+          <p>Измина петте рунда. Ето твоето представяне.</p>
+          <div class="final-score"><strong id="finalScore">0</strong><span>ТОЧКИ</span></div>
+          <div class="final-breakdown"><div><b id="finalCorrect">0/5</b><small>Точни отговори</small></div><div><b id="finalDistance">0 km</b><small>Средно разстояние</small></div><div><b id="finalLevel">1</b><small>Финално ниво</small></div></div>
+          <div class="final-actions"><button class="button button-primary" id="playAgainButton">Играй отново ↗</button><button class="button button-ghost" data-view="home">Към началото</button></div>
+        </div>
+      </section>
+
+      <section class="view" id="practiceView">
+        <div class="page-heading"><div class="eyebrow">ТРЕНИРОВЪЧЕН РЕЖИМ</div><h1>Упражнявай се <em>по свой начин.</em></h1><p>Избери географска област и откривай местата в нея.</p></div>
+        <div class="practice-card">
+          <div class="practice-art"><span class="practice-compass">⌖</span><div class="practice-art-text">ОПОЗНАЙ<br><b>БЪЛГАРИЯ</b></div></div>
+          <div class="practice-form"><span class="muted-label">ИЗБЕРИ ОБЛАСТ</span><h2>Къде искаш да тренираш?</h2>
+            <label for="regionSelect">Географска област</label><select id="regionSelect"><option value="all">Цяла България</option><option value="Северна България">Северна България</option><option value="Южна България">Южна България</option><option value="Западна България">Западна България</option><option value="Източна България">Източна България</option></select>
+            <label for="practiceLevel">Ниво на трудност</label><select id="practiceLevel"><option value="1">Ниво 1 · Лесно</option><option value="2">Ниво 2 · Средно</option><option value="3">Ниво 3 · Трудно</option></select>
+            <button class="button button-primary button-full" id="startPracticeButton">Започни тренировка ↗</button>
+            <small class="form-note">В тренировката можеш да упражняваш знанията си без ограничение от пет рунда.</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="view" id="leaderboardView">
+        <div class="page-heading"><div class="eyebrow">ОБЩНОСТТА НА ОТКРИВАТЕЛИТЕ</div><h1>Класация <em>на играчите.</em></h1><p>Всеки точен отговор те приближава до върха.</p></div>
+        <div class="data-card"><div class="data-card-heading"><div><h2>Топ играчи</h2><p>Демо класация с примерни резултати и твоите записани игри.</p></div><span class="live-tag">● ЛОКАЛНИ ДАННИ</span></div><div id="leaderboardRows"></div></div>
+      </section>
+
+      <section class="view" id="historyView">
+        <div class="page-heading"><div class="eyebrow">ТВОЯТ НАПРЕДЪК</div><h1>История на <em>игрите.</em></h1><p>Всички запазени резултати от този браузър.</p></div>
+        <div class="data-card"><div class="data-card-heading"><div><h2>Последни игри</h2><p>Резултатите се пазят локално на устройството.</p></div><button class="clear-button" id="clearHistoryButton">Изчисти историята</button></div><div id="historyRows"></div></div>
+      </section>
+
+      <section class="view" id="profileView">
+        <div class="page-heading"><div class="eyebrow">ТВОЯТ ПРОФИЛ</div><h1>Здравей, <em id="profileGreeting">откривателю.</em></h1><p>Промени името, с което се показваш в GeoQuest.</p></div>
+        <div class="profile-card"><div class="big-avatar" id="profileAvatar">И</div><div class="profile-edit"><label for="usernameInput">Потребителско име</label><input id="usernameInput" maxlength="18" placeholder="Например: GeoExplorer"><button class="button button-primary" id="saveProfileButton">Запази промените</button><small>Демо версия: профилът се съхранява само в този браузър.</small></div></div>
+      </section>
+    </main>
+    <footer class="site-footer"><span>© 2026 GEOQUEST BULGARIA</span><span>Създадено с любопитство към България 🇧🇬</span><span>УЧИ · ИГРАЙ · ОТКРИВАЙ</span></footer>
+  </div>
+
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="feedback-modal" role="dialog" aria-modal="true" aria-labelledby="feedbackTitle">
+      <button class="modal-close" id="closeModal" aria-label="Затвори">×</button>
+      <div class="feedback-symbol" id="feedbackSymbol">✦</div><div class="eyebrow">РЕЗУЛТАТ ОТ ПРЕДПОЛОЖЕНИЕТО</div>
+      <h2 id="feedbackTitle">Чудесно!</h2><p id="feedbackText"></p>
+      <button class="button button-primary button-full" id="showResultButton">Виж резултата <span>→</span></button>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="script.js"></script>
+</body>
+</html>
