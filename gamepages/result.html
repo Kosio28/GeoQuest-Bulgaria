@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резултат | GeoQuest Bulgaria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="../index.html"><span class="brand-mark">G</span><span>GeoQuest <b>Bulgaria</b></span></a><div class="header-actions"><button class="language-button" id="languageToggle" type="button">EN</button></div></header>
+  <main class="results-main">
+    <section class="results-card panel">
+      <div class="result-medal">★</div><span class="eyebrow" data-i18n="roundComplete">МИСИЯТА Е ЗАВЪРШЕНА</span>
+      <h1 data-i18n="yourResult">Твоят резултат</h1>
+      <div class="total-score"><strong id="finalScore">0</strong><span>/ 5000</span></div>
+      <p class="result-rank" id="resultRank"></p>
+      <p class="result-summary" id="resultSummary"></p>
+      <div class="result-breakdown" id="resultBreakdown"></div>
+      <div class="results-actions"><button class="button button-primary" id="playAgain" data-i18n="playAgain">Играй отново ↻</button><a class="button button-secondary" href="../index.html" data-i18n="homeButton">Начална страница</a></div>
+    </section>
+  </main>
+  <script type="module" src="../js/results.js"></script>
+</body>
+</html>
