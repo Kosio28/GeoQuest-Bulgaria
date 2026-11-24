@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">GeoQuest Bulgaria</title>
+  <rect x="2" y="2" width="60" height="60" rx="17" fill="#41634E"/>
+  <path fill="#FFFFFF" d="M32 11.5c-10.1 0-18 7.9-18 18 0 12.2 16 23 17.1 23.7a1.6 1.6 0 0 0 1.8 0C34 52.5 50 41.7 50 29.5c0-10.1-7.9-18-18-18Z"/>
+  <path fill="#41634E" stroke="#41634E" stroke-width="1.5" stroke-linejoin="round" d="m22.5 30.5 18-9-7.2 18.7-3.5-8.2-7.3-1.5Z"/>
+</svg>

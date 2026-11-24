@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-11-24T19:08:02.846Z",
+  "target": 500,
+  "minimumMet": true,
+  "distinctLocations": 471,
+  "requests": 499,
+  "verificationRequests": 475,
+  "tileCount": 24,
+  "failed": 2,
+  "sequenceRepresentatives": 8312,
+  "distinctCandidates": 475,
+  "regions": {
+    "Northwest": 78,
+    "North Central": 46,
+    "Southwest": 200,
+    "South Central": 95,
+    "Northeast": 29,
+    "Southeast": 23
+  },
+  "environments": {
+    "urban": 60,
+    "rural": 376,
+    "unknown": 35
+  },
+  "refinementPasses": [
+    {
+      "requests": 52,
+      "probes": 14,
+      "verifications": 14,
+      "failed": 0,
+      "additions": 8
+    },
+    {
+      "requests": 48,
+      "probes": 12,
+      "verifications": 12,
+      "failed": 0,
+      "additions": 3
+    }
+  ],
+  "totalDiscoveryRequests": 599,
+  "preferredTargetMet": false,
+  "completedAt": "2026-11-24T19:11:17.652Z",
+  "limitation": "A bounded countrywide sequence-tile scan with two image-tile refinement passes. This is not an exhaustive census or an upper bound on Bulgarian Mapillary coverage. Every catalog ID was individually checked for spherical camera type and an in-country Graph position; not every image was rendered."
+}

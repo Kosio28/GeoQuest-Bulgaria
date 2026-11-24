@@ -19,7 +19,7 @@ GeoQuest Bulgaria е училищен проект на **Константин �
 
 ## Етап 1
 
-Срокът за етапа е **14 ноември 2026 г.** Локално са подготвени проучване на три сходни игри, план, два означени макета, модел на базата с ER диаграма, 12 описания на задачи и чернова на седмичния отчет. Играта и базата предстои да се разработят.
+Срокът за етапа е **14 ноември 2026 г.** Локално са подготвени проучване на три сходни игри, план, два означени макета, модел на базата с ER диаграма, 12 описания на задачи и чернова на седмичния отчет. По-долу са указанията за текущата версия на играта.
 
 Планираната структура е `docs/` за документацията и макетите, `database/` за модела на данните, `src/` за играта, `tests/` за тестовете и `presentation/` за материалите за защита.
 
@@ -31,7 +31,17 @@ The game uses MapLibre GL JS and the [OpenStreetMap Standard tile service](https
 
 Run **npm test** for distance, scoring, and round progression checks.
 
-## Setup and Panorama Lab
+## Accounts and score history
+
+Open **Account** to create an account or sign in. Submit the fifth guess while signed in to save your score automatically. **My scores** shows your past games, including the mode, points, and duration. If a save fails, retry from the result screen. The same browser also retries pending scores when the account reconnects. Guest games do not create database records.
+
+To enable accounts in a checkout or deployment:
+
+1. Set `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` using the project URL and its browser publishable key. Keep privileged keys out of Vite configuration.
+2. Apply the migrations in `supabase/migrations/` to that Supabase project if they are not already applied. Signed-in users can read their own history; new scores are saved through a bounded submission RPC. Browser scores remain unverified. See [leaderboard implementation and security limits](docs/LEADERBOARD.md).
+3. In Supabase Auth, set the Site URL and allow the exact game URLs for email confirmation redirects, including your local Vite URL for development. Configure [custom SMTP](https://supabase.com/docs/guides/auth/auth-smtp) before opening signup to players outside your Supabase organization.
+
+## Setup and development tools
 
 The TypeScript prototype uses MapillaryJS and Vite. Use Node.js 22.12 or later.
 
@@ -43,7 +53,7 @@ The TypeScript prototype uses MapillaryJS and Vite. Use Node.js 22.12 or later.
    ```
 
    Keep [the example configuration](.env.example) free of credentials. Run `git check-ignore -v .env.local` to verify the ignore rule and `git ls-files -- .env.local` to confirm the file is untracked. The second command should print nothing.
-3. Run `npm ci` and then `npm run dev`. Restart Vite if it was running when you saved the token. Open the local URL printed by Vite and select **Play**. Open **Panorama Lab** from the home page for the Phase 1 controls: **Load random panorama**, manual ID lookup, and **Scan coverage**.
+3. Run `npm ci` and then `npm run dev`. Restart Vite if it was running when you saved the token. Open the local URL printed by Vite and select **Play**. For local Mapillary debugging, open `/lab.html` directly; this development tool is not included in production builds.
 
 To verify navigation with a known capture, enter `881801330329324` under **Mapillary image ID** and select **Load ID**. The lab should identify the Sofia capture as spherical. Under **Navigation connections**, choose **Next · 558486230070761** if it appears and confirm that the displayed image ID changes.
 
@@ -52,3 +62,8 @@ Drag the panorama to turn or look up and down. Scroll or use the zoom buttons. U
 Run `npm run build` for type checking and a production build. Run `npm run coverage` for a fresh terminal sample with the same token. Interactive imagery needs network access and WebGL.
 
 See the [Bulgaria coverage report](docs/MAPILLARY_COVERAGE.md) for results, scope, and data sources.
+
+Gameplay now uses a shared, geographically filtered catalog of 471 metadata-verified
+360° starts, with a persistent shuffled queue and recent-location avoidance. See
+[location diversity, discovery and validation](docs/LOCATION_DIVERSITY.md) for the
+cause of the original repetition, coverage limits and maintenance commands.

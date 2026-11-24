@@ -4,6 +4,9 @@ export const ROUND_COUNT = 5;
 export const MAX_ROUND_SCORE = 5_000;
 export const MAX_GAME_SCORE = ROUND_COUNT * MAX_ROUND_SCORE;
 export type Mode = 'classic' | 'no-move';
+export const DIFFICULTIES = { relaxed: null, easy: 120, normal: 60, hard: 30, expert: 15 } as const;
+export type Difficulty = keyof typeof DIFFICULTIES;
+export const SCORING_VERSION = 'distance-v1';
 type Point = Readonly<Coordinates>;
 
 export function distanceMeters([lng1, lat1]: Point, [lng2, lat2]: Point) {
@@ -21,8 +24,8 @@ export function scoreDistance(meters: number) {
 
 export interface RoundResult {
   readonly actual: Point;
-  readonly guess: Point;
-  readonly meters: number;
+  readonly guess: Point | null;
+  readonly meters: number | null;
   readonly points: number;
 }
 
@@ -47,8 +50,8 @@ export class Game {
   get hasGuess() { return this.guess !== undefined; }
   get results(): readonly RoundResult[] { return [...this.rounds]; }
   get totalPoints() { return this.rounds.reduce((sum, round) => sum + round.points, 0); }
-  get totalMeters() { return this.rounds.reduce((sum, round) => sum + round.meters, 0); }
-  get averageMeters() { return this.rounds.length ? this.totalMeters / this.rounds.length : 0; }
+  get totalMeters() { return this.rounds.reduce((sum, round) => sum + (round.meters ?? 0), 0); }
+  get averageMeters() { const guessed = this.rounds.filter(round => round.meters !== null).length; return guessed ? this.totalMeters / guessed : 0; }
   get durationMs() { return (this.ended ?? performance.now()) - this.started; }
 
   openRound(actual: Point) {
@@ -65,10 +68,10 @@ export class Game {
     return true;
   }
 
-  submit(now = performance.now()) {
-    if (this.phase !== 'exploring' || !this.guess || !this.actual) return;
-    const meters = distanceMeters(this.actual, this.guess);
-    const result = Object.freeze({ actual: this.actual, guess: this.guess, meters, points: scoreDistance(meters) });
+  submit(now = performance.now(), expired = false) {
+    if (this.phase !== 'exploring' || (!this.guess && !expired) || !this.actual) return;
+    const meters = this.guess ? distanceMeters(this.actual, this.guess) : null;
+    const result = Object.freeze({ actual: this.actual, guess: this.guess ?? null, meters, points: meters === null ? 0 : scoreDistance(meters) });
     this.rounds.push(result);
     this.phase = 'result';
     if (this.rounds.length === ROUND_COUNT) this.ended = now;

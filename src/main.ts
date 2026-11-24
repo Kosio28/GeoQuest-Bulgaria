@@ -1,9 +1,14 @@
+import { initializeShell } from './ui.ts';
+import { initializeLanguage } from './i18n.ts';
 import { isSupported, NavigationDirection, Viewer, type ViewerNavigationEdgeEvent } from 'mapillary-js';
 import 'mapillary-js/dist/mapillary.css';
 import './style.css';
 import { moveToCapture, PanoramaError, verifyCapture, viewerComponents } from './panorama.ts';
 import { candidates, expandPool, LocationPicker, scanCoverage, starterLocations } from './locations.ts';
 import { describeError } from './mapillary-api.ts';
+
+initializeShell('lab');
+initializeLanguage();
 
 const byId = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
 const token = import.meta.env.VITE_MAPILLARY_ACCESS_TOKEN?.trim() as string | undefined;

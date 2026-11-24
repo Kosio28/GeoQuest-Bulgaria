@@ -3,56 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="./logo.svg">
   <title>GeoQuest Bulgaria</title>
 </head>
 <body>
   <main>
-    <header class="masthead">
-      <a class="brand" href="./">GeoQuest <span>Bulgaria</span></a>
-      <a class="lab-link" href="./lab.html">Panorama Lab</a>
-      <p id="progress" hidden></p>
-    </header>
+    <header class="masthead"></header>
     <section id="home" class="home">
-      <p class="eyebrow">THE BULGARIA CHALLENGE</p>
-      <h1>Where in Bulgaria?</h1>
-      <p>Explore five street-level panoramas and pin each location on the map. Take your time: there’s no clock to beat.</p>
+      <div class="hero">
+        <div class="lobby-copy">
+          <p class="eyebrow" data-en="DISCOVER BULGARIA IN A NEW WAY" data-bg="ОТКРИЙ БЪЛГАРИЯ ПО НОВ НАЧИН">ОТКРИЙ БЪЛГАРИЯ ПО НОВ НАЧИН</p>
+          <h1><span data-en="How well do you" data-bg="Колко добре">Колко добре</span><br><span data-en="know" data-bg="познаваш">познаваш</span><br><em data-en="Bulgaria?" data-bg="България?">България?</em></h1>
+          <p class="hero-description" data-en="Explore the panorama, find the location on the map, and collect points. Five rounds stand between you and the title of Geography Expert." data-bg="Разгледай снимката, открий мястото върху картата и събери точки. Пет въпроса те делят от титлата Географски експерт.">Разгледай снимката, открий мястото върху картата и събери точки. Пет въпроса те делят от титлата Географски експерт.</p>
+          <div class="hero-actions"><button id="open-settings" class="primary" type="button" data-en="Start game" data-bg="Започни играта">Започни играта</button><a class="secondary" href="#how-to" data-en="How to play?" data-bg="Как се играе?">Как се играе?</a></div>
+          <p id="personal-best" data-dynamic hidden></p>
+          <div class="hero-facts"><div><strong>5</strong><span data-en="rounds" data-bg="въпроса">въпроса</span></div><div><strong>5 000</strong><span data-en="points per round" data-bg="точки на рунд">точки на рунд</span></div><div><strong>BG / EN</strong><span data-en="languages" data-bg="езика">езика</span></div></div>
+        </div>
+        <figure class="landscape-visual" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <svg viewBox="0 0 672 462"><defs><linearGradient id="landscape-sky" x2="1" y2="1"><stop stop-color="#dfede3"/><stop offset="1" stop-color="#b8d3bf"/></linearGradient><clipPath id="landscape-clip"><rect width="672" height="462" rx="48"/></clipPath><filter id="pin-shadow"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#3d684e" flood-opacity=".28"/></filter></defs><g clip-path="url(#landscape-clip)"><rect width="672" height="462" fill="url(#landscape-sky)"/><circle cx="521" cy="126" r="79" fill="#ecd98a" opacity=".27"/><circle cx="521" cy="126" r="53" fill="#ecd98a"/><path d="M28 462 315 161 618 462Z" fill="#90b29a"/><path d="m201 462 275-231 257 206v25Z" fill="#4f7b5d"/></g><path d="M380 183c-16 0-28 12-28 28 0 17 28 39 28 39s28-22 28-39c0-16-12-28-28-28Z" fill="#3d684e" stroke="white" stroke-width="7" filter="url(#pin-shadow)"/><circle cx="380" cy="211" r="4" fill="white"/></svg>
+          <div class="explore-label"><span></span><strong data-en="Explore Bulgaria" data-bg="Изследвай България">Изследвай България</strong></div>
+        </figure>
+      </div>
+      <section id="how-to" class="how-to"><p class="eyebrow" data-en="IT’S EASY" data-bg="ЛЕСНО Е">ЛЕСНО Е</p><h2 data-en="Three steps to victory" data-bg="Три стъпки до победата">Три стъпки до победата</h2><div class="steps">
+        <article class="card"><span class="step-number">01</span><div class="step-icon" data-icon="compass"></div><h3 data-en="Explore the panorama" data-bg="Разгледай снимката">Разгледай снимката</h3><p data-en="Look at the location and think about where it might be." data-bg="Виж географския обект и помисли къде се намира.">Виж географския обект и помисли къде се намира.</p></article>
+        <article class="card"><span class="step-number">02</span><div class="step-icon" data-icon="pin"></div><h3 data-en="Place a marker" data-bg="Постави маркер">Постави маркер</h3><p data-en="Choose a location on the interactive map of Bulgaria." data-bg="Избери място върху интерактивната карта на България.">Избери място върху интерактивната карта на България.</p></article>
+        <article class="card"><span class="step-number">03</span><div class="step-icon" data-icon="trophy"></div><h3 data-en="Collect points" data-bg="Събери точки">Събери точки</h3><p data-en="The closer your guess, the more points you earn." data-bg="Колкото по-точен си, толкова повече точки получаваш.">Колкото по-точен си, толкова повече точки получаваш.</p></article>
+      </div></section>
+      <section class="difficulty-guide" aria-labelledby="difficulty-guide-title">
+        <p class="eyebrow" data-en="FIND YOUR PACE" data-bg="ИЗБЕРИ СВОЕТО ТЕМПО">ИЗБЕРИ СВОЕТО ТЕМПО</p>
+        <h2 id="difficulty-guide-title" data-en="Choose your difficulty" data-bg="Избери трудност">Избери трудност</h2>
+        <div id="difficulty-cards" class="difficulty-cards"></div>
+      </section>
+    </section>
+    <dialog id="settings-dialog" aria-labelledby="settings-title"><div class="account-heading"><h2 id="settings-title" data-en="Game settings" data-bg="Настройки на играта">Настройки на играта</h2><button id="close-settings" type="button">Close</button></div>
       <form id="start">
         <fieldset>
           <legend>Choose your mode</legend>
           <label><input type="radio" name="mode" value="classic" checked> <span><strong>Classic</strong><small>Move, look around, and zoom</small></span></label>
           <label><input type="radio" name="mode" value="no-move"> <span><strong>No Move</strong><small>Look around and zoom from one spot</small></span></label>
         </fieldset>
-        <button class="primary" type="submit">Play</button>
+        <label class="difficulty-label" for="difficulty">Difficulty</label>
+        <select id="difficulty" name="difficulty">
+          <option value="relaxed">Relaxed</option><option value="easy">Easy</option><option value="normal">Normal</option><option value="hard">Hard</option><option value="expert">Expert</option>
+        </select><p id="difficulty-help" data-dynamic></p>
+        <button class="primary play-button" type="submit">Play Bulgaria</button>
+        <span data-dynamic id="start-status" role="status"></span>
       </form>
-    </section>
-    <section id="stage" class="stage" aria-label="Game round" hidden>
+    </dialog>
+    <section id="stage" class="stage" data-label="Game round" aria-label="Game round" hidden>
       <div id="viewer" hidden></div>
-      <div id="loading" class="loading" hidden><p id="load-status" role="status"></p><button id="retry" type="button" hidden>Retry round</button></div>
+      <div id="loading" class="loading" hidden><p data-dynamic id="load-status" role="status"></p><button id="retry" type="button" hidden>Retry round</button></div>
       <div id="explore" class="explore" hidden>
-        <p id="explore-status" role="status"></p>
-        <div id="moves" class="moves" aria-label="Explore connected images"></div>
+        <p data-dynamic id="explore-status" role="status"></p>
+        <div id="moves" class="moves" data-label="Explore connected images" aria-label="Explore connected images"></div>
       </div>
+      <div id="celebration" class="celebration" data-dynamic hidden aria-live="polite"><strong id="perfect-message"></strong><span id="perfect-count"></span><div id="confetti" aria-hidden="true"></div></div>
       <div id="results" class="results" hidden>
         <div class="result-content">
-          <p id="result-label" class="eyebrow"></p>
-          <h1 id="result-title" tabindex="-1"></h1>
-          <p id="result-stats"></p>
+          <p data-dynamic id="result-label" class="eyebrow"></p>
+          <h1 data-dynamic class="score-display" id="result-title" tabindex="-1"></h1>
+          <p data-dynamic id="result-stats"></p>
           <p class="legend"><span class="guess-key">●</span> Your guess <span class="actual-key">●</span> Actual location</p>
-          <ol id="round-scores" hidden></ol>
-          <button id="next" class="primary" type="button"></button>
+          <ol data-dynamic id="round-scores" hidden></ol>
+          <p data-dynamic id="score-status" role="status" hidden></p>
+          <button id="retry-score" type="button" hidden>Retry saving</button>
+          <button data-dynamic id="next" class="primary" type="button"></button>
         </div>
       </div>
       <div id="map-panel" class="map-panel" hidden>
-        <button id="toggle-map" type="button" aria-expanded="false" aria-controls="map">Expand map</button>
-        <div id="map" aria-label="Location map"></div>
-        <p id="map-error" role="status" hidden></p>
+        <div class="map-toolbar"><button id="toggle-map" data-dynamic type="button" aria-expanded="false" aria-controls="map">Expand map</button></div>
+        <div id="map" data-label="Location map" aria-label="Location map"></div>
+        <p data-dynamic id="map-error" role="status" hidden></p>
         <button id="guess" class="primary" type="button" disabled>GUESS</button>
       </div>
       <p id="credits" class="credits" hidden>Imagery: <span id="creator"></span><a href="https://www.mapillary.com/">Mapillary</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></p>
     </section>
   </main>
-  <script type="module" src="/src/play.ts"></script>
+  <script type="module" src="/src/app.ts"></script>
 </body>
 </html>
 

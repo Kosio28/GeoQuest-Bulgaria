@@ -6,7 +6,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         game: resolve(import.meta.dirname, 'index.html'),
-        lab: resolve(import.meta.dirname, 'lab.html'),
+        leaderboard: resolve(import.meta.dirname, 'leaderboard.html'),
       },
       output: {
         manualChunks(id) {

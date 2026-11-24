@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="./logo.svg">
     <title>GeoQuest Bulgaria | Panorama Lab</title>
   </head>
   <body>
-    <main>
+    <main class="page-container lab-page">
       <header>
-        <p class="eyebrow">GeoQuest Bulgaria · Phase 1</p>
+        <p class="eyebrow">GeoQuest Bulgaria · Development tool</p>
         <h1>Panorama Lab</h1>
         <p>Explore Bulgarian street-level imagery and test its coverage.</p>
       </header>
@@ -28,9 +28,9 @@
           </div>
           <p class="hint">Drag to look around, up or down. Scroll or use the viewer buttons to zoom.</p>
         </section>
-        <aside aria-label="Developer controls">
+        <aside class="card" aria-label="Developer controls">
           <div class="actions">
-            <button id="random" type="button">Load random panorama</button>
+            <button class="primary" id="random" type="button">Load random panorama</button>
             <button id="scan" type="button">Scan coverage</button>
           </div>
           <form id="lookup">

@@ -1,3 +1,4 @@
+import { t } from './i18n.ts';
 import { LngLatBounds, Map, Marker, NavigationControl, setWorkerUrl, type GeoJSONSource } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
@@ -12,6 +13,7 @@ export class GuessMap {
   private markers: Marker[] = [];
   private rounds: readonly RoundResult[] = [];
   private observer: ResizeObserver;
+  private localize: () => void;
 
   constructor(container: HTMLElement, choose: (point: Coordinates) => boolean, reportError: () => void) {
     this.map = new Map({
@@ -40,13 +42,21 @@ export class GuessMap {
     });
     this.map.touchZoomRotate.disableRotation();
     this.map.addControl(new NavigationControl({ showCompass: false }));
+    this.localize = () => {
+      for (const [selector, label] of [['.maplibregl-ctrl-zoom-in', 'Zoom in'], ['.maplibregl-ctrl-zoom-out', 'Zoom out']] as const) {
+        const button = container.querySelector<HTMLButtonElement>(selector);
+        button?.setAttribute('title', t(label)); button?.setAttribute('aria-label', t(label));
+      }
+      container.querySelector('.pin.guess')?.setAttribute('aria-label', t('Your guess'));
+    };
+    this.localize(); window.addEventListener('languagechange', this.localize);
     this.map.on('error', reportError);
     this.map.on('load', () => this.updateLines());
     this.map.on('click', ({ lngLat }) => {
       const point: Coordinates = [lngLat.wrap().lng, lngLat.lat];
       if (!choose(point)) return;
       this.clearMarkers();
-      this.pin(point, 'guess', 'Your guess');
+      this.pin(point, 'guess', t('Your guess'));
     });
     this.observer = new ResizeObserver(() => this.map.resize());
     this.observer.observe(container);
@@ -67,16 +77,18 @@ export class GuessMap {
     const bounds = new LngLatBounds();
     for (const [index, round] of rounds.entries()) {
       const label = rounds.length > 1 ? String(index + 1) : '';
-      const same = round.meters < 1;
-      this.pin(round.guess, 'guess', 'Your guess', label, same ? [-9, 0] : [0, 0]);
-      this.pin(round.actual, 'actual', 'Actual location', label, same ? [9, 0] : [0, 0]);
-      bounds.extend([...round.guess]).extend([...round.actual]);
+      const same = round.meters !== null && round.meters < 1;
+      if (round.guess) this.pin(round.guess, 'guess', t('Your guess'), label, same ? [-9, 0] : [0, 0]);
+      this.pin(round.actual, 'actual', t('Actual location'), label, same ? [9, 0] : [0, 0]);
+      if (round.guess) bounds.extend([...round.guess]);
+      bounds.extend([...round.actual]);
     }
     this.map.resize();
     this.map.fitBounds(bounds, { padding: 38, maxZoom: 15, duration: 0 });
   }
 
   destroy() {
+    window.removeEventListener('languagechange', this.localize);
     this.observer.disconnect();
     this.clearMarkers();
     this.map.remove();
@@ -86,7 +98,7 @@ export class GuessMap {
     const element = document.createElement('div');
     element.className = 'pin ' + kind;
     element.textContent = label;
-    element.title = label ? name + ' · Round ' + label : name;
+    element.title = label ? name + ' · ' + t('Round') + ' ' + label : name;
     element.setAttribute('aria-label', element.title);
     this.markers.push(new Marker({ element, offset }).setLngLat([...point]).addTo(this.map));
   }
@@ -99,9 +111,9 @@ export class GuessMap {
   private lines() {
     return {
       type: 'FeatureCollection' as const,
-      features: this.rounds.map(({ guess, actual }) => ({
+      features: this.rounds.filter(round => round.guess !== null).map(({ guess, actual }) => ({
         type: 'Feature' as const, properties: {},
-        geometry: { type: 'LineString' as const, coordinates: [[...guess], [...actual]] },
+        geometry: { type: 'LineString' as const, coordinates: [[...guess!], [...actual]] },
       })),
     };
   }

@@ -1,15 +1,23 @@
 {
   "dependencies": {
+    "@supabase/supabase-js": "2.119.2",
     "mapillary-js": "^4.1.2",
     "maplibre-gl": "^6.17.0"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "0.6.0",
+    "@mapbox/vector-tile": "3.0.0",
     "@types/node": "^22.20.5",
+    "pbf": "5.1.2",
     "typescript": "^5.9.3",
     "vite": "^7.3.8"
   },
   "name": "geoquest-bulgaria",
   "scripts": {
+    "locations:discover": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/discover-locations.ts",
+    "locations:simulate": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/simulate-locations.ts",
+    "locations:refine": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/refine-locations.ts",
+    "locations:publish": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/publish-locations.ts",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "coverage": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/coverage.ts",

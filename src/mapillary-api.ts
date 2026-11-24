@@ -1,3 +1,4 @@
+import { t } from './i18n.ts';
 import { inBulgaria, type Coordinates } from './boundary.ts';
 import type { Site } from './coverage-sites.ts';
 
@@ -29,14 +30,14 @@ export class MapillaryApiError extends Error {
 export function describeError(error: unknown): string {
   if (error instanceof MapillaryApiError) {
     if (error.status === 401 || error.status === 403 || error.code === 190) {
-      return `${error.message} Check the Mapillary client access token.`;
+      return t('Mapillary access was denied. Check the client token.');
     }
-    return error.message;
+    return t('Mapillary is temporarily unavailable. Try again.');
   }
   if (error instanceof Error && error.name === 'TimeoutError') {
-    return 'The Mapillary request timed out. Try again.';
+    return t('The Mapillary request timed out. Try again.');
   }
-  return 'Mapillary could not complete the request. Check the connection and try again.';
+  return t('Mapillary could not complete the request. Check the connection and try again.');
 }
 
 async function request<T>(token: string, path: string, params: Record<string, string>): Promise<T> {
@@ -65,6 +66,27 @@ export async function sampleSite(token: string, { center: [lng, lat] }: Site) {
   return { returned: response.data.length, panoramas };
 }
 
+// Short-lived, bounded metadata cache also coalesces simultaneous requests.
+// Keep validation in verifyCapture so edge photos and round starts retain their rules.
+const captures = new Map<string, { expires: number; value: Promise<Capture> }>();
 export function getCapture(token: string, id: string): Promise<Capture> {
-  return request(token, encodeURIComponent(id), { fields: `${fields},creator` });
+  const key = token + ':' + id;
+  const now = Date.now();
+  const cached = captures.get(key);
+  if (cached && cached.expires > now) return cached.value;
+  const value = request<Capture>(token, encodeURIComponent(id), { fields: `${fields},creator` });
+  const entry = { expires: now + 5 * 60_000, value };
+  captures.delete(key);
+  captures.set(key, entry);
+  if (captures.size > 128) captures.delete(captures.keys().next().value!);
+  void value.catch(() => { if (captures.get(key) === entry) captures.delete(key); });
+  return value;
+}
+
+// One bounded metadata page. Callers control cadence and never persist paging URLs/tokens.
+export async function discoverWindow(token: string, bbox: number[], after?: string) {
+  return request<{ data: Capture[]; paging?: { cursors?: { after?: string }; next?: string } }>(token, 'images', {
+    fields, bbox: bbox.map(n => n.toFixed(6)).join(','), is_pano: 'true', limit: '100',
+    ...(after ? { after } : {}),
+  });
 }

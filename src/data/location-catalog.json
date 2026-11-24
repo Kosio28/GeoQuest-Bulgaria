@@ -1,0 +1,6125 @@
+[
+  {
+    "id": "1000115384787409",
+    "coordinates": [
+      22.5896975,
+      42.8797033
+    ],
+    "sequence": "275KM4bmWyOgdcIxhDHerG",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:46.839Z"
+  },
+  {
+    "id": "1000329501471359",
+    "coordinates": [
+      24.7200399,
+      43.1305093
+    ],
+    "sequence": "peC7DfHsilm2SRy6qa5Btb",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:47.536Z"
+  },
+  {
+    "id": "1000406131480101",
+    "coordinates": [
+      23.8957139,
+      42.7812953
+    ],
+    "sequence": "80ftvPVpZSNejbIiugKnF3",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:48.159Z"
+  },
+  {
+    "id": "1001026130887707",
+    "coordinates": [
+      23.289218,
+      42.5923102
+    ],
+    "sequence": "cUeMRmNAr4F1iKoQ75qsWV",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:48.786Z"
+  },
+  {
+    "id": "1001263172964662",
+    "coordinates": [
+      24.709266,
+      42.7179062
+    ],
+    "sequence": "8uTSNkZUmQAytqzCYHVvR5",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:49.613Z"
+  },
+  {
+    "id": "1002506072347756",
+    "coordinates": [
+      23.3463389,
+      42.6812567
+    ],
+    "sequence": "re1Ny4wbMHcaU0GWAmYg85",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:50.370Z"
+  },
+  {
+    "id": "1002956581582168",
+    "coordinates": [
+      27.943486,
+      43.2129158
+    ],
+    "sequence": "WQqus8IYLhvn1iMUw97aef",
+    "region": "Northeast",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:50.908Z"
+  },
+  {
+    "id": "1004456098849561",
+    "coordinates": [
+      25.3195472,
+      41.6451574
+    ],
+    "sequence": "Afhgi6CqOWj4u27Xo5scpU",
+    "region": "South Central",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:51.571Z"
+  },
+  {
+    "id": "1021619019643866",
+    "coordinates": [
+      27.446556,
+      43.1736045
+    ],
+    "sequence": "PpYEhHMgJL8NB9d1zoarfq",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:52.256Z"
+  },
+  {
+    "id": "1022315368670145",
+    "coordinates": [
+      25.6674702,
+      43.0969614
+    ],
+    "sequence": "BlzfDeojKXA19LshWkuvIM",
+    "region": "North Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:52.892Z"
+  },
+  {
+    "id": "1031140284623284",
+    "coordinates": [
+      25.3978754,
+      42.6255938
+    ],
+    "sequence": "B4MhzmSuH6qdl5ikCpGKT0",
+    "region": "South Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:53.524Z"
+  },
+  {
+    "id": "1038811280959483",
+    "coordinates": [
+      28.0104037,
+      43.2296375
+    ],
+    "sequence": "wmWR3TFNQOjuHnzKdaG0Li",
+    "region": "Northeast",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:54.207Z"
+  },
+  {
+    "id": "1040071110728410",
+    "coordinates": [
+      27.6119003,
+      42.5822226
+    ],
+    "sequence": "zk9ZPcw1XDALCmItxdRVrJ",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:54.894Z"
+  },
+  {
+    "id": "1052559106247802",
+    "coordinates": [
+      26.3202166,
+      42.6800425
+    ],
+    "sequence": "orjxa1TKVDgImf0MSJZlv3",
+    "region": "Southeast",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:55.625Z"
+  },
+  {
+    "id": "1139579250647734",
+    "coordinates": [
+      22.8747569,
+      43.9888664
+    ],
+    "sequence": "9aeDuZbKEYQxIS8zitVOGF",
+    "region": "Northwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:56.226Z"
+  },
+  {
+    "id": "1221134662715644",
+    "coordinates": [
+      23.4070352,
+      42.8165491
+    ],
+    "sequence": "0oL2adPHcKrg1U6Ijube3k",
+    "region": "Northwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:56.862Z"
+  },
+  {
+    "id": "138229482569880",
+    "coordinates": [
+      25.6068196,
+      43.1173997
+    ],
+    "sequence": "Q0mXoKs4INzjBTJlEY9yOS",
+    "region": "North Central",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:57.446Z"
+  },
+  {
+    "id": "1705129050158525",
+    "coordinates": [
+      27.5195928,
+      42.5654364
+    ],
+    "sequence": "1UGNTfpbd3Fi7m6oeQ0Ewx",
+    "region": "Southeast",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:58.232Z"
+  },
+  {
+    "id": "1000652498529187",
+    "coordinates": [
+      23.0314577,
+      43.1862071
+    ],
+    "sequence": "Hv1IwAUZluEsoWLVTf57Fq",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:59.024Z"
+  },
+  {
+    "id": "1000662884999435",
+    "coordinates": [
+      24.7809837,
+      42.8619227
+    ],
+    "sequence": "qZgRYu9dPGU8Lxm3A2H1as",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:02:59.705Z"
+  },
+  {
+    "id": "1001706518703665",
+    "coordinates": [
+      23.4093076,
+      41.7223207
+    ],
+    "sequence": "veJSYrHUNy9wTnC8LbsgDf",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:00.391Z"
+  },
+  {
+    "id": "1003374901180597",
+    "coordinates": [
+      23.1857024,
+      42.6249466
+    ],
+    "sequence": "fvLMsi4zjHIuJKwDtaedV8",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:01.053Z"
+  },
+  {
+    "id": "1002088157473060",
+    "coordinates": [
+      25.1725754,
+      42.5685119
+    ],
+    "sequence": "cIs0OlN4djw1kD9ivYEbQV",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:01.618Z"
+  },
+  {
+    "id": "1003045144409844",
+    "coordinates": [
+      23.300732,
+      42.6453923
+    ],
+    "sequence": "gVRrjSNoD9LWid5YM6Z2Pl",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:02.238Z"
+  },
+  {
+    "id": "1208382807221279",
+    "coordinates": [
+      26.552099,
+      43.5227305
+    ],
+    "sequence": "Rehwr2Y4s9F6nIbg0GV1Mx",
+    "region": "Northeast",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:02.863Z"
+  },
+  {
+    "id": "1325579361469699",
+    "coordinates": [
+      24.8415802,
+      42.0677375
+    ],
+    "sequence": "jdOI8wFb4EBYi7HUCW5kVm",
+    "region": "South Central",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:03.615Z"
+  },
+  {
+    "id": "1026330617088352",
+    "coordinates": [
+      26.5147275,
+      43.1980279
+    ],
+    "sequence": "zGkaDp6qTBFcYOXNMfVs5E",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:04.243Z"
+  },
+  {
+    "id": "1071360474110082",
+    "coordinates": [
+      24.6292336,
+      43.3830715
+    ],
+    "sequence": "BnmhW5jDuUiqSzlYM6NT0Z",
+    "region": "North Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:04.858Z"
+  },
+  {
+    "id": "1039334855857865",
+    "coordinates": [
+      24.7466091,
+      42.1466906
+    ],
+    "sequence": "BhmPb3dkGpLn9Wv4Yw6Nq5",
+    "region": "South Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:05.451Z"
+  },
+  {
+    "id": "866984215397133",
+    "coordinates": [
+      28.031167,
+      43.2570948
+    ],
+    "sequence": "jfm8nTU6O2Va7JpBYlk1i3",
+    "region": "Northeast",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:06.215Z"
+  },
+  {
+    "id": "1056549985978981",
+    "coordinates": [
+      26.7521202,
+      42.6775147
+    ],
+    "sequence": "JEsHm0WglTLGY8MyUK3XIj",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:06.884Z"
+  },
+  {
+    "id": "1059014335920333",
+    "coordinates": [
+      27.4805843,
+      42.4883602
+    ],
+    "sequence": "DlEZYBqQPtApmuhLKJRone",
+    "region": "Southeast",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:07.426Z"
+  },
+  {
+    "id": "1148876103045845",
+    "coordinates": [
+      22.6816444,
+      43.6251342
+    ],
+    "sequence": "JWAQUkzlmCLVTRaI8t0q4w",
+    "region": "Northwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:08.079Z"
+  },
+  {
+    "id": "1553446398885108",
+    "coordinates": [
+      23.4924593,
+      43.2046956
+    ],
+    "sequence": "0qIV8YAaBlfLXoMSkWPK91",
+    "region": "Northwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:08.729Z"
+  },
+  {
+    "id": "1557719458420838",
+    "coordinates": [
+      24.7634415,
+      42.8868142
+    ],
+    "sequence": "GJsScmPqfi1YAOodQDp7x3",
+    "region": "North Central",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:09.457Z"
+  },
+  {
+    "id": "2197352204090740",
+    "coordinates": [
+      26.3641354,
+      42.7147637
+    ],
+    "sequence": "UVHEx62RhQcbNAkvMgmB5O",
+    "region": "Southeast",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:10.247Z"
+  },
+  {
+    "id": "1006977764491588",
+    "coordinates": [
+      25.3511875,
+      43.6162105
+    ],
+    "sequence": "zvquLYncQPNSd6Vstx3y49",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:11.557Z"
+  },
+  {
+    "id": "1001845529656965",
+    "coordinates": [
+      24.1329282,
+      42.2061847
+    ],
+    "sequence": "5Yn4mV1hiFXIKgSWBobGNR",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:12.193Z"
+  },
+  {
+    "id": "1012288974654477",
+    "coordinates": [
+      23.4473048,
+      42.7952943
+    ],
+    "sequence": "1apWxMJF47osuBl2kAeVQ9",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:12.864Z"
+  },
+  {
+    "id": "1002147638755504",
+    "coordinates": [
+      24.9134609,
+      41.9786039
+    ],
+    "sequence": "zZTpyf9dgaA5KhHRXC4Jb3",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:13.524Z"
+  },
+  {
+    "id": "1006054918235539",
+    "coordinates": [
+      22.7117008,
+      42.2950465
+    ],
+    "sequence": "KL9w7MTHDX2FBj5OG8tVdl",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:14.201Z"
+  },
+  {
+    "id": "1048915310222366",
+    "coordinates": [
+      28.5745357,
+      43.7312362
+    ],
+    "sequence": "JGpUtwVMv2nCLzcHm8WAB9",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:16.327Z"
+  },
+  {
+    "id": "1072059044579195",
+    "coordinates": [
+      25.3174987,
+      42.878976
+    ],
+    "sequence": "wafEIQXN5gpWCMvHxy8VAo",
+    "region": "North Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:17.003Z"
+  },
+  {
+    "id": "1057488345688852",
+    "coordinates": [
+      24.7088915,
+      41.5754276
+    ],
+    "sequence": "sT6IYLWxJNvuKojr5ciEGA",
+    "region": "South Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:17.725Z"
+  },
+  {
+    "id": "1064822111399962",
+    "coordinates": [
+      27.3942147,
+      42.6115237
+    ],
+    "sequence": "gDrlNTHo2jayM1Sb5zPO7E",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:18.376Z"
+  },
+  {
+    "id": "1079225793856736",
+    "coordinates": [
+      26.5051137,
+      42.4894842
+    ],
+    "sequence": "SuJxvIoFP2DTNXM0A9EqCs",
+    "region": "Southeast",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:18.938Z"
+  },
+  {
+    "id": "1200758024299930",
+    "coordinates": [
+      23.2187226,
+      43.4015019
+    ],
+    "sequence": "1RdM3csjgp4ekC72XTxB6m",
+    "region": "Northwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:19.459Z"
+  },
+  {
+    "id": "423535276768295",
+    "coordinates": [
+      23.3681386,
+      42.8283533
+    ],
+    "sequence": "HrL61SG3Ki70MCFnEPcvIl",
+    "region": "Northwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:20.172Z"
+  },
+  {
+    "id": "1001286461500518",
+    "coordinates": [
+      23.6953298,
+      42.8362825
+    ],
+    "sequence": "LxO1DSpeKMW2yXlFI3sUGZ",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:20.862Z"
+  },
+  {
+    "id": "1007925138760200",
+    "coordinates": [
+      24.2512727,
+      42.8905046
+    ],
+    "sequence": "m5D8wKuPtOIdSQN1a97gJA",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:21.501Z"
+  },
+  {
+    "id": "1003258111796729",
+    "coordinates": [
+      23.875353,
+      42.6412214
+    ],
+    "sequence": "Gu4V9WcgizHBfUSLQb5xMy",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:22.182Z"
+  },
+  {
+    "id": "1014416600301822",
+    "coordinates": [
+      23.3518711,
+      42.5884074
+    ],
+    "sequence": "hndCL7W9QmX0wjkytY25iT",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:22.777Z"
+  },
+  {
+    "id": "1004243807834915",
+    "coordinates": [
+      24.3208013,
+      42.5070211
+    ],
+    "sequence": "Vlq6iTUINQa7hFYnpDwc4t",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:23.422Z"
+  },
+  {
+    "id": "1008845853414270",
+    "coordinates": [
+      23.3262578,
+      42.6904167
+    ],
+    "sequence": "gWe0LwNj8akXpEPoiYQAGq",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:24.046Z"
+  },
+  {
+    "id": "2217164878666973",
+    "coordinates": [
+      27.9099039,
+      43.205144
+    ],
+    "sequence": "N2plXStOeiFj9rEx7qIsZR",
+    "region": "Northeast",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:24.565Z"
+  },
+  {
+    "id": "257420357401776",
+    "coordinates": [
+      24.6548771,
+      42.0647141
+    ],
+    "sequence": "e7SrnxakDLdoRUlwZBAbX6",
+    "region": "South Central",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:25.100Z"
+  },
+  {
+    "id": "1052038839849742",
+    "coordinates": [
+      28.5573647,
+      43.4528307
+    ],
+    "sequence": "uzaSowfT18CsNDApelZH5W",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:25.746Z"
+  },
+  {
+    "id": "1242724857082016",
+    "coordinates": [
+      24.6179961,
+      43.4047877
+    ],
+    "sequence": "WKHO3GErw4LtV2xq65dv1F",
+    "region": "North Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:26.463Z"
+  },
+  {
+    "id": "1156023588895116",
+    "coordinates": [
+      24.3302286,
+      42.1826596
+    ],
+    "sequence": "h8xSjpvGk2UTWOPnQA6DwY",
+    "region": "South Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:27.162Z"
+  },
+  {
+    "id": "1066559911767086",
+    "coordinates": [
+      27.5030488,
+      42.0228304
+    ],
+    "sequence": "0jUFuZT8Ow5Q6c3lBMgobS",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:27.847Z"
+  },
+  {
+    "id": "1185428240122367",
+    "coordinates": [
+      26.334249,
+      42.6924886
+    ],
+    "sequence": "PduvmslAWax1RoqOXfFeCc",
+    "region": "Southeast",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:28.483Z"
+  },
+  {
+    "id": "701048202232145",
+    "coordinates": [
+      23.3289563,
+      42.8471164
+    ],
+    "sequence": "X5nyt8rhFuVzo0ReslmvpB",
+    "region": "Northwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:29.162Z"
+  },
+  {
+    "id": "1001590535416855",
+    "coordinates": [
+      22.8099725,
+      43.4084293
+    ],
+    "sequence": "D2tOiBjlMgPnZyq6Vps5Nx",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:29.844Z"
+  },
+  {
+    "id": "1013282930414552",
+    "coordinates": [
+      26.0206125,
+      43.6221071
+    ],
+    "sequence": "OXLtWhlQFmi9aYRk7Nj82r",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:30.402Z"
+  },
+  {
+    "id": "1003869978201383",
+    "coordinates": [
+      23.5795819,
+      42.1902009
+    ],
+    "sequence": "FwT6tce5gNoWj1I2HbAL9Q",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:30.981Z"
+  },
+  {
+    "id": "1025531718743312",
+    "coordinates": [
+      23.3140787,
+      42.613538
+    ],
+    "sequence": "QJKpITx0lOGuAgfRBoWPci",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:31.591Z"
+  },
+  {
+    "id": "1004788014754586",
+    "coordinates": [
+      24.3850002,
+      41.8910789
+    ],
+    "sequence": "V7fUP63ZJygnQADdvrNlsj",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:32.200Z"
+  },
+  {
+    "id": "1012610427999975",
+    "coordinates": [
+      23.3527784,
+      42.6529983
+    ],
+    "sequence": "2pigaUMsfRnrGdvhj853YI",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:32.977Z"
+  },
+  {
+    "id": "3382407295395155",
+    "coordinates": [
+      24.784141,
+      42.1942195
+    ],
+    "sequence": "2VQtDg0bczsR8aSlAJ4Cx1",
+    "region": "South Central",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:34.148Z"
+  },
+  {
+    "id": "1055004765997573",
+    "coordinates": [
+      27.4730538,
+      43.128659
+    ],
+    "sequence": "hlgno2x5rR9ZvCAEHpMk6z",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:34.855Z"
+  },
+  {
+    "id": "1449645229304539",
+    "coordinates": [
+      25.9603977,
+      43.8502143
+    ],
+    "sequence": "u02OnQFgK3jThLXz5HUwaJ",
+    "region": "North Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:35.390Z"
+  },
+  {
+    "id": "1209984613388095",
+    "coordinates": [
+      25.6539525,
+      42.4333852
+    ],
+    "sequence": "Kmpvj6YlMa8w0ezOQB7RPo",
+    "region": "South Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:35.926Z"
+  },
+  {
+    "id": "1072116654914880",
+    "coordinates": [
+      26.3246045,
+      42.7488071
+    ],
+    "sequence": "AkvPatGHS93yprfZjXFxqT",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:36.549Z"
+  },
+  {
+    "id": "1002181841465853",
+    "coordinates": [
+      23.8516243,
+      42.8726915
+    ],
+    "sequence": "mAzsycQCdeZ6EKaj1JGrFB",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:37.880Z"
+  },
+  {
+    "id": "1025742170171243",
+    "coordinates": [
+      24.2567507,
+      42.8265574
+    ],
+    "sequence": "5JoyqFPxZNGHz8QeX6mOIv",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:38.572Z"
+  },
+  {
+    "id": "1004427284470421",
+    "coordinates": [
+      23.7168922,
+      42.7811658
+    ],
+    "sequence": "895g6Go7vP1sbO4HfnM2kA",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:39.219Z"
+  },
+  {
+    "id": "1029095981855940",
+    "coordinates": [
+      23.1645128,
+      42.6613889
+    ],
+    "sequence": "0rmy4Sz5VhUCPdvs8DNGKE",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:39.843Z"
+  },
+  {
+    "id": "1007216912249029",
+    "coordinates": [
+      24.5444338,
+      42.7867005
+    ],
+    "sequence": "Ese7NhIx0j8wWFbCRY4ftZ",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:40.541Z"
+  },
+  {
+    "id": "1016172683386862",
+    "coordinates": [
+      23.2817022,
+      41.5687191
+    ],
+    "sequence": "rRvbOnpI0ZD613amxKujUi",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:41.103Z"
+  },
+  {
+    "id": "529643886268852",
+    "coordinates": [
+      27.926725,
+      43.1722208
+    ],
+    "sequence": "9dP1JjtXbeiocC4lFsu6Gf",
+    "region": "Northeast",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:41.678Z"
+  },
+  {
+    "id": "1056411062857949",
+    "coordinates": [
+      27.1170704,
+      43.2769133
+    ],
+    "sequence": "dtmSNqzw7LxY1ZQK82TPG6",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:42.313Z"
+  },
+  {
+    "id": "1926351384518968",
+    "coordinates": [
+      25.3424901,
+      42.8836648
+    ],
+    "sequence": "4f6qzdDyv2ReFK3LcBHmwn",
+    "region": "North Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:43.016Z"
+  },
+  {
+    "id": "1539343796620625",
+    "coordinates": [
+      24.7943581,
+      42.1376835
+    ],
+    "sequence": "M4bSTq2OcfEWzwAKvyLNYd",
+    "region": "South Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:43.634Z"
+  },
+  {
+    "id": "1081612959596662",
+    "coordinates": [
+      27.8912614,
+      42.7147762
+    ],
+    "sequence": "jSsbqPEG65Nv8R2OmQJrLp",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:44.315Z"
+  },
+  {
+    "id": "1002213204688474",
+    "coordinates": [
+      23.6617612,
+      42.8796288
+    ],
+    "sequence": "WPJpGMFNlTg4j6D9s8CrQf",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:45.631Z"
+  },
+  {
+    "id": "1026572272792269",
+    "coordinates": [
+      24.291994,
+      42.9444668
+    ],
+    "sequence": "7OAmNL4l8gyxGpajrRDoSM",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:46.226Z"
+  },
+  {
+    "id": "1005098051298888",
+    "coordinates": [
+      24.1458913,
+      42.7661715
+    ],
+    "sequence": "SdJZYIkvf9Rmu1TVotz7w2",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:46.846Z"
+  },
+  {
+    "id": "1033213558303739",
+    "coordinates": [
+      23.1273631,
+      42.0346588
+    ],
+    "sequence": "xAZ7P2bE913e8CIvhTplXu",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:47.472Z"
+  },
+  {
+    "id": "1007715934400019",
+    "coordinates": [
+      24.2081822,
+      42.7631136
+    ],
+    "sequence": "Nk5rv10am2eOTQLR9hwuB8",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:48.080Z"
+  },
+  {
+    "id": "1016422260297584",
+    "coordinates": [
+      23.0946768,
+      42.016639
+    ],
+    "sequence": "FUxulfgwK3EqHL61AZoGsn",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:48.783Z"
+  },
+  {
+    "id": "1056871572471742",
+    "coordinates": [
+      28.5737577,
+      43.6416334
+    ],
+    "sequence": "qNcdSYtomXjp06FRxuzQM4",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:49.462Z"
+  },
+  {
+    "id": "783150080674234",
+    "coordinates": [
+      25.6424965,
+      43.0811403
+    ],
+    "sequence": "yxzA4Om9WunUtTPvIEjQBa",
+    "region": "North Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:49.987Z"
+  },
+  {
+    "id": "1814526862653822",
+    "coordinates": [
+      24.3181517,
+      42.1660267
+    ],
+    "sequence": "uDVYaldgnoHGTU50X3CJ21",
+    "region": "South Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:50.604Z"
+  },
+  {
+    "id": "1100848990992437",
+    "coordinates": [
+      27.2679739,
+      42.7109614
+    ],
+    "sequence": "LuM3obx2Y8TONA0PESjzJW",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:51.289Z"
+  },
+  {
+    "id": "1002739164586576",
+    "coordinates": [
+      22.9083634,
+      43.816803
+    ],
+    "sequence": "VwuX32fMWFdqnNbQekHlzD",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:51.960Z"
+  },
+  {
+    "id": "1034350147739285",
+    "coordinates": [
+      25.486517,
+      42.8654113
+    ],
+    "sequence": "VXSde1pLvUfM0cElgixNQr",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:52.671Z"
+  },
+  {
+    "id": "1005126980519630",
+    "coordinates": [
+      23.4580019,
+      42.2184775
+    ],
+    "sequence": "7cBPJs3d0tWimw4kUXup1I",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:53.391Z"
+  },
+  {
+    "id": "1045608564143757",
+    "coordinates": [
+      23.245042,
+      42.6365377
+    ],
+    "sequence": "vxXgLq8wK5d7J3lsD4hFfu",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:54.014Z"
+  },
+  {
+    "id": "1009416854689322",
+    "coordinates": [
+      24.2585109,
+      42.7456018
+    ],
+    "sequence": "DkvXdoEcJYwFTKAbZIW3f0",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:54.710Z"
+  },
+  {
+    "id": "1022893196100822",
+    "coordinates": [
+      23.259591,
+      42.6655812
+    ],
+    "sequence": "p8I7RjhdUoZsXzlv6A04Dg",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:55.531Z"
+  },
+  {
+    "id": "1068971547906578",
+    "coordinates": [
+      27.1311638,
+      43.387768
+    ],
+    "sequence": "tgVuUz7cQs0RWmDlHC1L6x",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:56.291Z"
+  },
+  {
+    "id": "1107463374076390",
+    "coordinates": [
+      27.6381343,
+      42.4340969
+    ],
+    "sequence": "yv1ur2gL5GZSc6BFIMex0w",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:57.556Z"
+  },
+  {
+    "id": "1003928674453063",
+    "coordinates": [
+      23.574556,
+      42.9088129
+    ],
+    "sequence": "CzAHX2INwmdE7ua9UfYS54",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:58.180Z"
+  },
+  {
+    "id": "1035655677533329",
+    "coordinates": [
+      25.9653088,
+      43.7663783
+    ],
+    "sequence": "2e9vVuDQ4mSL7HC0pPldzc",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:03:58.889Z"
+  },
+  {
+    "id": "1070591388231650",
+    "coordinates": [
+      23.4422899,
+      42.7530077
+    ],
+    "sequence": "TDr8fWChntu5Epx4ZkvOq1",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:00.117Z"
+  },
+  {
+    "id": "1012002397414649",
+    "coordinates": [
+      24.7051881,
+      42.501069
+    ],
+    "sequence": "hElFyrVc3kb07UoBSQpmCt",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:00.782Z"
+  },
+  {
+    "id": "1025361878560896",
+    "coordinates": [
+      23.48717,
+      41.8356942
+    ],
+    "sequence": "NjuQv5CkAqnBbcp9Yl2a4y",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:01.362Z"
+  },
+  {
+    "id": "1077141978040215",
+    "coordinates": [
+      27.5767974,
+      43.1603027
+    ],
+    "sequence": "IgC5DpyruYAUcdwEB69XJi",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:01.972Z"
+  },
+  {
+    "id": "2641105389408360",
+    "coordinates": [
+      25.6356142,
+      42.4437471
+    ],
+    "sequence": "u4jF8VGgERyewcCSODNLds",
+    "region": "South Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:02.491Z"
+  },
+  {
+    "id": "1166610025569035",
+    "coordinates": [
+      27.8518751,
+      42.1718055
+    ],
+    "sequence": "iNfasv3LDKtRIVeh5m1ZrC",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:03.100Z"
+  },
+  {
+    "id": "1004869944324779",
+    "coordinates": [
+      23.2666545,
+      43.119629
+    ],
+    "sequence": "uCa5jPzSxcUFvQLkOVhfmT",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:03.775Z"
+  },
+  {
+    "id": "1042458090466601",
+    "coordinates": [
+      25.5483164,
+      43.0858009
+    ],
+    "sequence": "ndVwZ4M9YTX53QixHKsaLu",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:04.476Z"
+  },
+  {
+    "id": "1005514877833317",
+    "coordinates": [
+      23.7687472,
+      42.1583806
+    ],
+    "sequence": "kFKXoPMUWmznRs8Z5dhICH",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:05.086Z"
+  },
+  {
+    "id": "1088638159492309",
+    "coordinates": [
+      23.2729625,
+      42.5634552
+    ],
+    "sequence": "smiD47p5W2AJvHETQGqS39",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:05.859Z"
+  },
+  {
+    "id": "1012398844568457",
+    "coordinates": [
+      24.9447061,
+      42.7555165
+    ],
+    "sequence": "cCSzaihgp1WnUvI4YRwjel",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:06.529Z"
+  },
+  {
+    "id": "1029785966019586",
+    "coordinates": [
+      23.389963888889,
+      42.663464323105
+    ],
+    "sequence": "n90bc8BpWU7sqhwmGxefI5",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:07.169Z"
+  },
+  {
+    "id": "1140789678155028",
+    "coordinates": [
+      26.4194823,
+      42.8587246
+    ],
+    "sequence": "B2130lKxfMcbODvJHXsVhu",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:07.768Z"
+  },
+  {
+    "id": "545162604903508",
+    "coordinates": [
+      25.6275853,
+      42.4266186
+    ],
+    "sequence": "TLK5F2UWeDy8VoMsSQikha",
+    "region": "South Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:08.286Z"
+  },
+  {
+    "id": "1172209680521206",
+    "coordinates": [
+      27.5252196,
+      41.9801818
+    ],
+    "sequence": "1Uy9AuZKqh8PjtxCoelDGO",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:08.858Z"
+  },
+  {
+    "id": "1009436307992184",
+    "coordinates": [
+      23.4262759,
+      43.0304669
+    ],
+    "sequence": "VAwt1bM9j6HK5olszLn3gN",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:09.420Z"
+  },
+  {
+    "id": "1050278351259876",
+    "coordinates": [
+      24.2997969,
+      42.8196532
+    ],
+    "sequence": "QkAuxhYByejgFoXiN9WPsr",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:10.026Z"
+  },
+  {
+    "id": "1005869107353621",
+    "coordinates": [
+      23.5916394,
+      42.246201
+    ],
+    "sequence": "vzMqGCIxlHTQ2OwSmKy6X8",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:10.640Z"
+  },
+  {
+    "id": "1134750894417254",
+    "coordinates": [
+      23.2066656,
+      42.7134356
+    ],
+    "sequence": "KfyMJi2Y5jZwrXAmsvQDgp",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:11.242Z"
+  },
+  {
+    "id": "1016205731203867",
+    "coordinates": [
+      24.6108894,
+      42.7779504
+    ],
+    "sequence": "K0j6mCxncFfDdwa3W4g2hA",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:11.916Z"
+  },
+  {
+    "id": "1034104292267220",
+    "coordinates": [
+      23.0747427,
+      42.0188025
+    ],
+    "sequence": "6JRv8IhZbUwGiql4pftDkd",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:12.634Z"
+  },
+  {
+    "id": "1151862272731207",
+    "coordinates": [
+      27.2692983,
+      42.8357922
+    ],
+    "sequence": "uRLQA4Dldi7jx13MKwscJS",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:13.294Z"
+  },
+  {
+    "id": "589013610779798",
+    "coordinates": [
+      24.3132667,
+      42.1912767
+    ],
+    "sequence": "O5RXN8YV6qTcpSBjvgbsnd",
+    "region": "South Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:14.001Z"
+  },
+  {
+    "id": "1210506690331052",
+    "coordinates": [
+      27.3847236,
+      42.7418301
+    ],
+    "sequence": "BE021IYucwkgGU8OMaFpA7",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:14.641Z"
+  },
+  {
+    "id": "1010213470834762",
+    "coordinates": [
+      23.7228629,
+      42.8155819
+    ],
+    "sequence": "ALa8jJ2TG9NEquQVRs0OwX",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:15.259Z"
+  },
+  {
+    "id": "1051993557837225",
+    "coordinates": [
+      25.348786,
+      42.8043034
+    ],
+    "sequence": "MWgbea48N2TzyCAJ1R0sB6",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:15.869Z"
+  },
+  {
+    "id": "1006700430875533",
+    "coordinates": [
+      24.181066,
+      42.5854772
+    ],
+    "sequence": "lSJhy39WTd0b5ojNF42Ekf",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:16.582Z"
+  },
+  {
+    "id": "1203228184258683",
+    "coordinates": [
+      23.4505493,
+      42.701092
+    ],
+    "sequence": "K5e1ElwrzLN6IMjP9p8RcC",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:17.517Z"
+  },
+  {
+    "id": "1016699150142684",
+    "coordinates": [
+      24.5825254,
+      41.8191707
+    ],
+    "sequence": "zcLsh45bDIj2FxeqQUHfVa",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:18.150Z"
+  },
+  {
+    "id": "1036453238270867",
+    "coordinates": [
+      23.0890383,
+      41.9937748
+    ],
+    "sequence": "kqYlt48ZfrP1AgjvL2iMuU",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:18.826Z"
+  },
+  {
+    "id": "1154592246585104",
+    "coordinates": [
+      26.4461186,
+      42.8896429
+    ],
+    "sequence": "B8owAkUHZfYh3CyamuiPQV",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:19.387Z"
+  },
+  {
+    "id": "895166666082723",
+    "coordinates": [
+      24.7291914,
+      42.1384612
+    ],
+    "sequence": "M836Te5CADdXk09VpKjxRI",
+    "region": "South Central",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:19.987Z"
+  },
+  {
+    "id": "1258134002020298",
+    "coordinates": [
+      27.6076666,
+      42.3972084
+    ],
+    "sequence": "a7ijFBPvyrAokRuJGmYw9p",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:20.645Z"
+  },
+  {
+    "id": "1015475680779772",
+    "coordinates": [
+      23.3871238,
+      43.0403626
+    ],
+    "sequence": "u1WdcZxeCf7F5LHkwYnVva",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:21.287Z"
+  },
+  {
+    "id": "1082532782988597",
+    "coordinates": [
+      24.9017838,
+      42.8409079
+    ],
+    "sequence": "DmVvckZjoOxEdlRWUi8GJ1",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:22.065Z"
+  },
+  {
+    "id": "1006739440891123",
+    "coordinates": [
+      23.4766338,
+      41.5532805
+    ],
+    "sequence": "tpNmeWxVFAL0C9hn85iq1J",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:22.832Z"
+  },
+  {
+    "id": "1237618064311187",
+    "coordinates": [
+      23.2542014,
+      42.6027151
+    ],
+    "sequence": "6IzKRwyNZBTJlxQnuXMhjP",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:23.558Z"
+  },
+  {
+    "id": "1021755426005327",
+    "coordinates": [
+      24.2139915,
+      42.7904355
+    ],
+    "sequence": "rQkWwP4Oj0Eva3fL9pKbSF",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:24.265Z"
+  },
+  {
+    "id": "1052363412409246",
+    "coordinates": [
+      23.3647061,
+      42.6736634
+    ],
+    "sequence": "ypLfS12JrE6iXVTdURksq8",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:24.918Z"
+  },
+  {
+    "id": "1170668324232469",
+    "coordinates": [
+      28.3352224,
+      43.4314845
+    ],
+    "sequence": "w0Ge5ZrtNLzXp97vhySCDU",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:25.522Z"
+  },
+  {
+    "id": "1331523561161868",
+    "coordinates": [
+      27.530055,
+      42.0610285
+    ],
+    "sequence": "iMmVf9ZH3X62GswAzEeFhx",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:26.253Z"
+  },
+  {
+    "id": "1021643145966270",
+    "coordinates": [
+      23.293256,
+      43.0123317
+    ],
+    "sequence": "kTVgwYIa2yFH5XKDOt6snZ",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:26.858Z"
+  },
+  {
+    "id": "1085540212706348",
+    "coordinates": [
+      24.4975247,
+      43.4244128
+    ],
+    "sequence": "0vWMSLJuFVTnZ4gUiB5xfk",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:27.560Z"
+  },
+  {
+    "id": "1007516244058284",
+    "coordinates": [
+      23.9627514,
+      42.7533421
+    ],
+    "sequence": "RiMbTHWQoIVKOq4zFdraGC",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:28.237Z"
+  },
+  {
+    "id": "1375446819780387",
+    "coordinates": [
+      23.3789333,
+      42.6179329
+    ],
+    "sequence": "UQowqiI4xRHjTA6fpkLrPd",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:28.940Z"
+  },
+  {
+    "id": "1022278552940234",
+    "coordinates": [
+      24.3480923,
+      42.5666226
+    ],
+    "sequence": "MYjvpZEAymTXrk4nV2RG98",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:29.487Z"
+  },
+  {
+    "id": "1055400476739163",
+    "coordinates": [
+      23.319666793665,
+      42.712427904776
+    ],
+    "sequence": "PvyEQjiz16cXeM5STAYWF3",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:30.151Z"
+  },
+  {
+    "id": "1173471723710259",
+    "coordinates": [
+      28.4707725,
+      43.3816386
+    ],
+    "sequence": "VQemPaZMnK3qElrvOxGAoJ",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:30.711Z"
+  },
+  {
+    "id": "1958284854741396",
+    "coordinates": [
+      27.7520534,
+      42.2837663
+    ],
+    "sequence": "jBXETQ6ZfLMkxGqUApPgtC",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:31.337Z"
+  },
+  {
+    "id": "1021769126102983",
+    "coordinates": [
+      23.8040466,
+      42.8813597
+    ],
+    "sequence": "1jVmqhat32rep7uW54S8oU",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:31.971Z"
+  },
+  {
+    "id": "1111468383417198",
+    "coordinates": [
+      25.7260734,
+      43.469442
+    ],
+    "sequence": "lyJKg1ZTq2ArWujBRL9xDh",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:32.586Z"
+  },
+  {
+    "id": "1008253181461829",
+    "coordinates": [
+      23.0297258,
+      42.5587787
+    ],
+    "sequence": "do126ShcArEwJ9XYC5RkMg",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:33.277Z"
+  },
+  {
+    "id": "1557060641518094",
+    "coordinates": [
+      23.2068768,
+      42.7471053
+    ],
+    "sequence": "lALhC5dZK8XatMQy92wIpc",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:33.971Z"
+  },
+  {
+    "id": "1027389288660357",
+    "coordinates": [
+      24.5946027,
+      41.6074648
+    ],
+    "sequence": "HRhmlVvK8tyWgTPiqIL0No",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:34.671Z"
+  },
+  {
+    "id": "1055483816375244",
+    "coordinates": [
+      22.6748197,
+      42.2711008
+    ],
+    "sequence": "KxR9J4qDByT5PgbOW8LXGH",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:35.299Z"
+  },
+  {
+    "id": "1188082718973937",
+    "coordinates": [
+      28.5771373,
+      43.4800901
+    ],
+    "sequence": "3Ihdl1BqF5e0ZKY6SUAGDp",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:35.862Z"
+  },
+  {
+    "id": "1023315982902393",
+    "coordinates": [
+      22.82701,
+      42.8434705
+    ],
+    "sequence": "KBuph2v3QNDnLiSgdeOMqf",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:37.280Z"
+  },
+  {
+    "id": "1123015555623671",
+    "coordinates": [
+      25.9875191,
+      43.6947197
+    ],
+    "sequence": "fm23jrGXZuP4CybzpUJ0Fx",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:37.884Z"
+  },
+  {
+    "id": "1008452507638781",
+    "coordinates": [
+      23.4431235,
+      41.5263644
+    ],
+    "sequence": "J8pi5TotaFXzWcUDs4EdwI",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:38.569Z"
+  },
+  {
+    "id": "1651402962291333",
+    "coordinates": [
+      23.5616363,
+      42.3122585
+    ],
+    "sequence": "W1PQakrwC4qAxt8K7zco9b",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:39.252Z"
+  },
+  {
+    "id": "1029371048163386",
+    "coordinates": [
+      24.8928608,
+      42.7351766
+    ],
+    "sequence": "o5kgQcsatdABOJ8UF093GH",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:39.893Z"
+  },
+  {
+    "id": "1066810771594803",
+    "coordinates": [
+      23.1059088,
+      42.0040962
+    ],
+    "sequence": "7JsCcEidFph58M0QSxGav6",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:40.469Z"
+  },
+  {
+    "id": "1196454382327130",
+    "coordinates": [
+      26.4570235,
+      42.8324934
+    ],
+    "sequence": "6VK1l39mEQk5xBpnIuOZvy",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:41.155Z"
+  },
+  {
+    "id": "418971554141186",
+    "coordinates": [
+      26.5669851,
+      42.1717752
+    ],
+    "sequence": "A8Y2BdPTZo1GWXe6vRsuKy",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:41.703Z"
+  },
+  {
+    "id": "1023691192682142",
+    "coordinates": [
+      23.6773494,
+      43.7980643
+    ],
+    "sequence": "oJNWwUyp5FmRSz4CqPhAtB",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:42.376Z"
+  },
+  {
+    "id": "1124802631811909",
+    "coordinates": [
+      26.143029,
+      43.3584965
+    ],
+    "sequence": "lUy90V2gJibqBLfTGFekHC",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:42.928Z"
+  },
+  {
+    "id": "1009371860516132",
+    "coordinates": [
+      23.9306025,
+      42.719728
+    ],
+    "sequence": "2LFNv5d3QcyTfweJMsUptn",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:43.724Z"
+  },
+  {
+    "id": "1829123777859163",
+    "coordinates": [
+      23.0178981,
+      42.5946221
+    ],
+    "sequence": "IT2GlUamF3tB9nD5x7N6iY",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:44.401Z"
+  },
+  {
+    "id": "1031030529015679",
+    "coordinates": [
+      24.3529493,
+      42.7544688
+    ],
+    "sequence": "lNk7dFJ2ZxfuPvcYDChROM",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:45.085Z"
+  },
+  {
+    "id": "1221148292258202",
+    "coordinates": [
+      28.069996,
+      43.3418642
+    ],
+    "sequence": "hWHNFs3qXGSdyeUlwRKaCO",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:46.379Z"
+  },
+  {
+    "id": "989728215842394",
+    "coordinates": [
+      27.8872065,
+      42.7541737
+    ],
+    "sequence": "tuckdaUeByvn2NsjxfAXmh",
+    "region": "Southeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:47.007Z"
+  },
+  {
+    "id": "1025409082565478",
+    "coordinates": [
+      23.4779008,
+      43.1702793
+    ],
+    "sequence": "D4zKVA7m2MTEWSh5q8P0cI",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:47.680Z"
+  },
+  {
+    "id": "1162948951330694",
+    "coordinates": [
+      24.501844,
+      43.2067033
+    ],
+    "sequence": "957VerSaoTDAUJtGQB0qjd",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:48.310Z"
+  },
+  {
+    "id": "1011487540829929",
+    "coordinates": [
+      22.9869076,
+      42.7122974
+    ],
+    "sequence": "DL7ZO2eaHMIz4Rt5c1Ylbo",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:49.100Z"
+  },
+  {
+    "id": "1829562344104478",
+    "coordinates": [
+      23.4438052,
+      42.5921439
+    ],
+    "sequence": "VfIsKrMiWH6AXtGvQbZ9O1",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:49.694Z"
+  },
+  {
+    "id": "1031898539599310",
+    "coordinates": [
+      24.6503783,
+      42.7509457
+    ],
+    "sequence": "FqyexwKkrEdC6v38a2igRb",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:50.319Z"
+  },
+  {
+    "id": "1073535927656281",
+    "coordinates": [
+      23.2919978,
+      42.6843612
+    ],
+    "sequence": "fbd2iE0ZNzW5nVgaF1LrKp",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:51.011Z"
+  },
+  {
+    "id": "1498483394081050",
+    "coordinates": [
+      27.2940816,
+      42.8796502
+    ],
+    "sequence": "VPLRyDFMtq0TmWfU8vwBsr",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:51.575Z"
+  },
+  {
+    "id": "1027293003057325",
+    "coordinates": [
+      23.4789384,
+      42.8288327
+    ],
+    "sequence": "fLv9McaAhPEVdS1OUDoG83",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:52.161Z"
+  },
+  {
+    "id": "1170670010768785",
+    "coordinates": [
+      25.6580318,
+      43.023857
+    ],
+    "sequence": "Axe4i3IMVtXnKYGpgbkhq9",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:52.942Z"
+  },
+  {
+    "id": "517039351094678",
+    "coordinates": [
+      23.5122973,
+      42.627499
+    ],
+    "sequence": "C28oGKYq1vJTSeQLOX0Bw9",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:54.416Z"
+  },
+  {
+    "id": "1032077158663959",
+    "coordinates": [
+      25.5027115,
+      42.0031883
+    ],
+    "sequence": "dTAe3IF0vrsJlpc2LhOZuH",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:55.025Z"
+  },
+  {
+    "id": "1079113367238533",
+    "coordinates": [
+      22.7002307,
+      42.2760963
+    ],
+    "sequence": "QgYHIczWMvL4dltOb0p6Gq",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:55.714Z"
+  },
+  {
+    "id": "1540787949833194",
+    "coordinates": [
+      27.3442963,
+      42.8618137
+    ],
+    "sequence": "ocJdufesDjENH7k01ZrtqK",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:56.521Z"
+  },
+  {
+    "id": "1033232315344965",
+    "coordinates": [
+      23.3778495,
+      43.0822726
+    ],
+    "sequence": "01GglSoYZxWiMQypuqH9JA",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:57.178Z"
+  },
+  {
+    "id": "1212897652835690",
+    "coordinates": [
+      25.746374,
+      42.9787965
+    ],
+    "sequence": "t9UzRANB6HlTyXvKGas40r",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:57.828Z"
+  },
+  {
+    "id": "1014135386837563",
+    "coordinates": [
+      23.109138,
+      42.4695811
+    ],
+    "sequence": "WByzku02fPhSd9AGbOsXxE",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:58.439Z"
+  },
+  {
+    "id": "793149592632288",
+    "coordinates": [
+      23.1443637,
+      42.707435
+    ],
+    "sequence": "47cDYiM5N3BlCeOxuwoJgy",
+    "region": "Southwest",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:04:59.320Z"
+  },
+  {
+    "id": "1033255004791334",
+    "coordinates": [
+      24.6188291,
+      41.9272273
+    ],
+    "sequence": "3VSP1ju0WCiAlQgHbRY2cD",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:00.003Z"
+  },
+  {
+    "id": "1079473430384953",
+    "coordinates": [
+      23.3639742,
+      42.7504743
+    ],
+    "sequence": "0YoiSy6rv7I8MfxkUVDcCp",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:00.618Z"
+  },
+  {
+    "id": "1625812224664780",
+    "coordinates": [
+      27.1152619,
+      43.3632083
+    ],
+    "sequence": "OsW3eKozdbnELcV14SwPMT",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:01.378Z"
+  },
+  {
+    "id": "1034818657606259",
+    "coordinates": [
+      22.6615028,
+      42.8418363
+    ],
+    "sequence": "DsN4w9EWFVcdim0ARZfzt1",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:02.026Z"
+  },
+  {
+    "id": "1222034795176001",
+    "coordinates": [
+      24.2650258,
+      42.9177583
+    ],
+    "sequence": "unvNXdz9tpx2ksA0fFbGlw",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:02.787Z"
+  },
+  {
+    "id": "1014794476671977",
+    "coordinates": [
+      23.7999972,
+      42.7823835
+    ],
+    "sequence": "hKDjkqCV24a58GIxdmpZcH",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:03.436Z"
+  },
+  {
+    "id": "1034682417625929",
+    "coordinates": [
+      24.391327,
+      42.1304458
+    ],
+    "sequence": "ja0s1kixbcIVMOR8pBdh6g",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:04.111Z"
+  },
+  {
+    "id": "1081096537356467",
+    "coordinates": [
+      23.3700935,
+      42.6455097
+    ],
+    "sequence": "oGqXUJH85PAi6Q7aTWvgj2",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:04.750Z"
+  },
+  {
+    "id": "1035263004463187",
+    "coordinates": [
+      23.7987817,
+      42.8180643
+    ],
+    "sequence": "3cEhKLi7vXRHaj4P2dAm0o",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:06.050Z"
+  },
+  {
+    "id": "1239127383453903",
+    "coordinates": [
+      25.7056206,
+      43.0019409
+    ],
+    "sequence": "5m9SI6ORUFYvQ2HLA84oks",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:06.805Z"
+  },
+  {
+    "id": "1016410013239669",
+    "coordinates": [
+      22.4839447,
+      42.3719799
+    ],
+    "sequence": "FXi1wWHEUCed0L75IklQhu",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:07.522Z"
+  },
+  {
+    "id": "1035606554199796",
+    "coordinates": [
+      24.4530284,
+      42.6063656
+    ],
+    "sequence": "mftp680GAadskgXRWoTFuB",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:08.131Z"
+  },
+  {
+    "id": "1194276145787211",
+    "coordinates": [
+      23.347399,
+      42.697511
+    ],
+    "sequence": "AIkwiu5C7sKByR0g4YpfaL",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:08.690Z"
+  },
+  {
+    "id": "317598817913593",
+    "coordinates": [
+      27.09541,
+      43.500172
+    ],
+    "sequence": "VeCESkPwpKbXv2gnJ81UT9",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:09.309Z"
+  },
+  {
+    "id": "1036313907454005",
+    "coordinates": [
+      22.7038929,
+      42.8619623
+    ],
+    "sequence": "ICjL2kmMW3FanDqlHxp87A",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:09.964Z"
+  },
+  {
+    "id": "1275969043785887",
+    "coordinates": [
+      25.514625,
+      43.1465231
+    ],
+    "sequence": "rMBPC1AZtfI3Dyh56JS9Ta",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:10.580Z"
+  },
+  {
+    "id": "1017936623423379",
+    "coordinates": [
+      22.8615747,
+      42.6124105
+    ],
+    "sequence": "v4zHOmrJNRpLwAZdqFe6f8",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:11.270Z"
+  },
+  {
+    "id": "1035655534205378",
+    "coordinates": [
+      24.5561052,
+      42.0743913
+    ],
+    "sequence": "t3lAiynqBxcDT7CVoJg2mb",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:11.874Z"
+  },
+  {
+    "id": "1201243350535148",
+    "coordinates": [
+      23.400471,
+      42.6517714
+    ],
+    "sequence": "iTkW7ucMP3QElH4A05oUfR",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:12.679Z"
+  },
+  {
+    "id": "358058700608617",
+    "coordinates": [
+      28.4089972,
+      43.406109
+    ],
+    "sequence": "r2YqinLIueoa6KmDUGQMS7",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:13.372Z"
+  },
+  {
+    "id": "1039965057068268",
+    "coordinates": [
+      23.4827588,
+      43.1402566
+    ],
+    "sequence": "HpaPbX5E0ue8FItxjn1UGv",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:14.013Z"
+  },
+  {
+    "id": "1349289825783038",
+    "coordinates": [
+      24.8901304,
+      43.7020876
+    ],
+    "sequence": "jpUYr52lOJsSA7hvK16xRu",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:14.619Z"
+  },
+  {
+    "id": "1018015129799931",
+    "coordinates": [
+      23.362319,
+      41.731221
+    ],
+    "sequence": "E8gdAGTxrfj31PsFRSMeY2",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:15.437Z"
+  },
+  {
+    "id": "1035710530868564",
+    "coordinates": [
+      24.3841407,
+      42.614285
+    ],
+    "sequence": "ozQU2iLsjZqaOKScy3Y0B4",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:16.225Z"
+  },
+  {
+    "id": "1267052917252008",
+    "coordinates": [
+      23.3173007,
+      42.6772832
+    ],
+    "sequence": "PtgnfNoZ4wAIleDVCXOdvs",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:16.842Z"
+  },
+  {
+    "id": "4674792862745316",
+    "coordinates": [
+      28.5339854,
+      43.6722131
+    ],
+    "sequence": "9oMpieSqsUO6rxfXI51JNV",
+    "region": "Northeast",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:17.596Z"
+  },
+  {
+    "id": "1043064936777245",
+    "coordinates": [
+      23.0832076,
+      43.1679163
+    ],
+    "sequence": "2SLFXxjAzDyPenuUJs6akM",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:18.256Z"
+  },
+  {
+    "id": "1379122086104051",
+    "coordinates": [
+      25.6132269,
+      43.2213334
+    ],
+    "sequence": "MrXHkCtjPgFKYaEpSf3VTU",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:18.865Z"
+  },
+  {
+    "id": "1019781032701330",
+    "coordinates": [
+      24.1436963,
+      42.733921
+    ],
+    "sequence": "LiE3U4WVlPHZxpGdJBcTof",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:19.647Z"
+  },
+  {
+    "id": "1037393151867547",
+    "coordinates": [
+      24.2472245,
+      42.0727925
+    ],
+    "sequence": "X3TnbIfeFsENAG1jOKxghV",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:20.272Z"
+  },
+  {
+    "id": "1286667506150141",
+    "coordinates": [
+      23.406170417426,
+      42.684956006755
+    ],
+    "sequence": "JadHL1NFPMSt92zxfo4WqC",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:20.937Z"
+  },
+  {
+    "id": "1044731109955139",
+    "coordinates": [
+      23.4750378,
+      43.0882724
+    ],
+    "sequence": "JIndq9QfuPsGME4Y7k6CUF",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:21.636Z"
+  },
+  {
+    "id": "1020120506466133",
+    "coordinates": [
+      23.3876277,
+      42.1782755
+    ],
+    "sequence": "qx52X3UkBbz6mwIgeG9lh1",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:22.827Z"
+  },
+  {
+    "id": "1039220591678848",
+    "coordinates": [
+      24.2537557,
+      42.7749746
+    ],
+    "sequence": "xvBj8OPrgV7toFSlw4MzR0",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:23.486Z"
+  },
+  {
+    "id": "1302197765426781",
+    "coordinates": [
+      23.3337488,
+      42.6575387
+    ],
+    "sequence": "Z1A6OnzhFIDet3SGbXwvKo",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:24.111Z"
+  },
+  {
+    "id": "1046250919802877",
+    "coordinates": [
+      23.1795584,
+      43.0676778
+    ],
+    "sequence": "7VRhZOplwQTirE1g06afAu",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:24.724Z"
+  },
+  {
+    "id": "1481608906082721",
+    "coordinates": [
+      25.5889326,
+      43.242951
+    ],
+    "sequence": "LPG8QA1d0V3TjDfqmUtJWa",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:25.321Z"
+  },
+  {
+    "id": "1020310173428306",
+    "coordinates": [
+      23.4137717,
+      41.7517332
+    ],
+    "sequence": "8EyvAZczjeCRMXo2gWqQDI",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:26.019Z"
+  },
+  {
+    "id": "1051403066484369",
+    "coordinates": [
+      24.8729739,
+      41.9863681
+    ],
+    "sequence": "FGANI0dMwDz4PTJ8njE1Bc",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:26.727Z"
+  },
+  {
+    "id": "1680862679161156",
+    "coordinates": [
+      22.7190912,
+      42.2821263
+    ],
+    "sequence": "bRr4LjHJGcptIOgd20PV3a",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:27.520Z"
+  },
+  {
+    "id": "1053796376605611",
+    "coordinates": [
+      22.7663413,
+      43.3976632
+    ],
+    "sequence": "3zjIbMZER7UWsmpt8xndyi",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:28.373Z"
+  },
+  {
+    "id": "1586969668749251",
+    "coordinates": [
+      25.875443,
+      42.9281409
+    ],
+    "sequence": "D1OJ4BxX2VzlEwSZ9gsQF3",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:29.105Z"
+  },
+  {
+    "id": "1020875148807373",
+    "coordinates": [
+      23.6333307,
+      42.4339559
+    ],
+    "sequence": "sD573fRMJk9dNrBE2IHbKv",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:29.809Z"
+  },
+  {
+    "id": "1051446377052962",
+    "coordinates": [
+      24.3109605,
+      42.7574014
+    ],
+    "sequence": "WaGexcSNY2kfitbgmZ6w5B",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:30.481Z"
+  },
+  {
+    "id": "2323747271325437",
+    "coordinates": [
+      23.2547762,
+      42.7266137
+    ],
+    "sequence": "iy7pNwXJLBsD4jkVA5vlOe",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:31.047Z"
+  },
+  {
+    "id": "1055745502200395",
+    "coordinates": [
+      22.6261737,
+      42.873328
+    ],
+    "sequence": "TWoBbq1LCQp27jFfsn6Gm9",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:31.753Z"
+  },
+  {
+    "id": "1609932809939371",
+    "coordinates": [
+      25.1040858,
+      43.0263286
+    ],
+    "sequence": "fM4BqWYxpz58ZCso9ycjnD",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:32.392Z"
+  },
+  {
+    "id": "1021099056394128",
+    "coordinates": [
+      23.4665597,
+      41.8870883
+    ],
+    "sequence": "1V3i7UfjC6LPAqvl9IaYEs",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:33.069Z"
+  },
+  {
+    "id": "1052789569312509",
+    "coordinates": [
+      24.358136,
+      42.6399928
+    ],
+    "sequence": "gD1HEo8zQV9IGa0w3rTJKc",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:33.760Z"
+  },
+  {
+    "id": "484734987352728",
+    "coordinates": [
+      22.679601,
+      42.2987662
+    ],
+    "sequence": "5Pes8OYi2GdlaotqJ4NXFQ",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:34.413Z"
+  },
+  {
+    "id": "1056125038998607",
+    "coordinates": [
+      22.9350415,
+      43.0710351
+    ],
+    "sequence": "I4NlyD0912zLGV7buUSjY8",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:35.067Z"
+  },
+  {
+    "id": "187420550805655",
+    "coordinates": [
+      24.3155099,
+      43.1986052
+    ],
+    "sequence": "8697KkuHVSPoUc5OR0Qwnx",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:35.611Z"
+  },
+  {
+    "id": "1021661952878297",
+    "coordinates": [
+      23.8089286,
+      42.5411742
+    ],
+    "sequence": "HcikN0n2VAZhIjmGyYSMKt",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:36.771Z"
+  },
+  {
+    "id": "1069796011461579",
+    "coordinates": [
+      25.2240978,
+      42.1034423
+    ],
+    "sequence": "Mai0UBLlYn9JuzhxcbrqZE",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:37.372Z"
+  },
+  {
+    "id": "720097880309776",
+    "coordinates": [
+      23.2694173,
+      41.5518344
+    ],
+    "sequence": "tEDWN9kJcPMrsjAV12vxLY",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:37.964Z"
+  },
+  {
+    "id": "1059800981945534",
+    "coordinates": [
+      24.0676797,
+      43.1994198
+    ],
+    "sequence": "K50ODFg7SLpCEZl4eTJYt6",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:38.588Z"
+  },
+  {
+    "id": "1926458221141570",
+    "coordinates": [
+      25.6220597,
+      42.956265
+    ],
+    "sequence": "auWzxwZpHVQ5erdvO93n6f",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:39.170Z"
+  },
+  {
+    "id": "1028387158260969",
+    "coordinates": [
+      23.1808011,
+      41.337203
+    ],
+    "sequence": "5CjRmeFlQznirUscw6BDkY",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:39.778Z"
+  },
+  {
+    "id": "1072664714178743",
+    "coordinates": [
+      26.1952927,
+      41.768599
+    ],
+    "sequence": "P4zTFyqIL7s1tDoVe06nxa",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:40.397Z"
+  },
+  {
+    "id": "1069239004129108",
+    "coordinates": [
+      23.6165571,
+      43.0935759
+    ],
+    "sequence": "xVqDgs5ECwaoicT3BemX8P",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:41.019Z"
+  },
+  {
+    "id": "2397400450456278",
+    "coordinates": [
+      24.6525407,
+      42.9635891
+    ],
+    "sequence": "mjsOEYxz8KC0kN3qR24up6",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:41.785Z"
+  },
+  {
+    "id": "1030142231379238",
+    "coordinates": [
+      22.6564257,
+      42.7406501
+    ],
+    "sequence": "Zbdx3SyusXo2e0IhvfJknC",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:42.452Z"
+  },
+  {
+    "id": "1073222701397049",
+    "coordinates": [
+      24.3291399,
+      41.6293817
+    ],
+    "sequence": "QHMFP0L1N4kc9r3AJ5XxiT",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:43.103Z"
+  },
+  {
+    "id": "1069759940984560",
+    "coordinates": [
+      23.4726916,
+      42.9744662
+    ],
+    "sequence": "x7YstPoBvN8TIwGWOluJK5",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:43.717Z"
+  },
+  {
+    "id": "405875888492555",
+    "coordinates": [
+      25.393906,
+      43.6128061
+    ],
+    "sequence": "N7BrMpWZJfdnS2wvojGUAV",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:44.278Z"
+  },
+  {
+    "id": "1031272701307164",
+    "coordinates": [
+      23.2854257,
+      42.4829223
+    ],
+    "sequence": "2nHBZ7tVANvb5zRXiuraky",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:44.922Z"
+  },
+  {
+    "id": "1075798076872310",
+    "coordinates": [
+      24.3735627,
+      42.02231
+    ],
+    "sequence": "sPN4BDUnzIoK3wTY91bh8f",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:45.616Z"
+  },
+  {
+    "id": "1069879707616967",
+    "coordinates": [
+      23.1231678,
+      43.1228681
+    ],
+    "sequence": "BfYmcUba0IQ9TJ1qAtwKEG",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:46.245Z"
+  },
+  {
+    "id": "489048433534922",
+    "coordinates": [
+      26.0069507,
+      43.4765938
+    ],
+    "sequence": "KLUxm3bTetgEohJckfONvs",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:46.922Z"
+  },
+  {
+    "id": "1034392008374140",
+    "coordinates": [
+      22.6636578,
+      42.5398889
+    ],
+    "sequence": "PweuRHvoYFdxhGICc5iO8S",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:47.682Z"
+  },
+  {
+    "id": "1075939330770538",
+    "coordinates": [
+      24.2936463,
+      42.1220201
+    ],
+    "sequence": "Wg6di7hTPXElfRFJ9saISC",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:48.327Z"
+  },
+  {
+    "id": "1076257150806187",
+    "coordinates": [
+      23.2048393,
+      43.1827432
+    ],
+    "sequence": "mXGsUguL7Mxe4BRlb0vHWN",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:48.886Z"
+  },
+  {
+    "id": "557235226617460",
+    "coordinates": [
+      25.4257379,
+      43.146818
+    ],
+    "sequence": "9Y2dBvp1o8SFtE3wf7jMJT",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:49.635Z"
+  },
+  {
+    "id": "1036740347386908",
+    "coordinates": [
+      23.5930117,
+      42.5527399
+    ],
+    "sequence": "z2bta8jJMUKFirB5IVEDAu",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:50.333Z"
+  },
+  {
+    "id": "1077151801031664",
+    "coordinates": [
+      24.7561034,
+      42.6541829
+    ],
+    "sequence": "ocX6QTf23EOzCIVlqrgaWR",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:50.927Z"
+  },
+  {
+    "id": "1079547277202960",
+    "coordinates": [
+      23.7827524,
+      42.8442648
+    ],
+    "sequence": "a9etvpnMPxqisG2Ew0N8Az",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:51.532Z"
+  },
+  {
+    "id": "661441172698990",
+    "coordinates": [
+      25.4233831,
+      42.8579235
+    ],
+    "sequence": "viThJk8nEjYuRm1wsrWp6x",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:52.146Z"
+  },
+  {
+    "id": "1038313858166503",
+    "coordinates": [
+      24.0760584,
+      42.7511578
+    ],
+    "sequence": "nh4q3SRplxHcWJVujgXPkM",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:52.996Z"
+  },
+  {
+    "id": "1078060820650579",
+    "coordinates": [
+      25.939212,
+      41.9459938
+    ],
+    "sequence": "JhrimudA90nTQEUGkRvZCx",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:53.675Z"
+  },
+  {
+    "id": "1083341609932274",
+    "coordinates": [
+      22.7905798,
+      42.8331759
+    ],
+    "sequence": "L9H81pSB7QldOMvXGqZxnc",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:54.395Z"
+  },
+  {
+    "id": "7106073192817891",
+    "coordinates": [
+      25.1300903,
+      43.6526116
+    ],
+    "sequence": "TIFvnwHXxcydm9gu2KoAtq",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:55.495Z"
+  },
+  {
+    "id": "1039894687093777",
+    "coordinates": [
+      22.4538075,
+      42.5932306
+    ],
+    "sequence": "tba60FSIkUy19MXqzOldvN",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:56.172Z"
+  },
+  {
+    "id": "1083012647045454",
+    "coordinates": [
+      25.9971388,
+      42.0107024
+    ],
+    "sequence": "Zhw7POD92UX3nFeMYqCbL6",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:56.851Z"
+  },
+  {
+    "id": "1091095771980629",
+    "coordinates": [
+      23.5587264,
+      42.9502924
+    ],
+    "sequence": "kwIhDNTKGB6V1Onv5JUSLu",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:57.565Z"
+  },
+  {
+    "id": "1040518530887179",
+    "coordinates": [
+      23.3866275,
+      42.211628
+    ],
+    "sequence": "O41ZpfE2viwl9dGVcRHuoq",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:58.351Z"
+  },
+  {
+    "id": "1087533779783400",
+    "coordinates": [
+      24.2806381,
+      42.0009357
+    ],
+    "sequence": "ckwTpzPHAf16s9ZdV3gX4G",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:59.029Z"
+  },
+  {
+    "id": "1093603621931106",
+    "coordinates": [
+      23.3193696,
+      43.0956545
+    ],
+    "sequence": "exKZd9vu4MO3cnbLm6FVXj",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:05:59.748Z"
+  },
+  {
+    "id": "1041968838039041",
+    "coordinates": [
+      22.3626919,
+      42.3136253
+    ],
+    "sequence": "2HdKD3649AbuzCXrSgLWZf",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:00.324Z"
+  },
+  {
+    "id": "1094958131651815",
+    "coordinates": [
+      24.2178859,
+      41.9432033
+    ],
+    "sequence": "BwpuMYkdVQ8mHS2j9R1r0y",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:00.973Z"
+  },
+  {
+    "id": "1099545981870816",
+    "coordinates": [
+      22.698646,
+      42.8099996
+    ],
+    "sequence": "u98iWeUsJykgfr2NXMpAQm",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:01.730Z"
+  },
+  {
+    "id": "1042399127053929",
+    "coordinates": [
+      23.7034451,
+      42.4147848
+    ],
+    "sequence": "kTo2XUyMsrax4gP68DFvcH",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:02.454Z"
+  },
+  {
+    "id": "1098911564486994",
+    "coordinates": [
+      24.9866284,
+      42.5125324
+    ],
+    "sequence": "cu42s6VwS0TFx7qEXHBWik",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:03.144Z"
+  },
+  {
+    "id": "1102994991002104",
+    "coordinates": [
+      23.6128635,
+      42.8995298
+    ],
+    "sequence": "Xc2yDG4H7L9WMmJIrhojUC",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:03.823Z"
+  },
+  {
+    "id": "1042812410156750",
+    "coordinates": [
+      22.5873678,
+      42.1914239
+    ],
+    "sequence": "wEJRsz9XOgP8HZIN3naMdU",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:04.488Z"
+  },
+  {
+    "id": "1099123265140814",
+    "coordinates": [
+      25.4251528,
+      42.105411
+    ],
+    "sequence": "YVTB0IdhRcvgiZtxbuLUEF",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:05.233Z"
+  },
+  {
+    "id": "1117941499292311",
+    "coordinates": [
+      23.6579682,
+      42.8429423
+    ],
+    "sequence": "GeAzS3dN6oI5RBu7spbLOT",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:05.955Z"
+  },
+  {
+    "id": "1046748767323491",
+    "coordinates": [
+      23.4102631,
+      41.6907996
+    ],
+    "sequence": "lF14aHgnAC6NUfqjdsyOvM",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:06.585Z"
+  },
+  {
+    "id": "1100237504856982",
+    "coordinates": [
+      26.1031558,
+      41.5025319
+    ],
+    "sequence": "1klGULEmfc8OhbQrq7HeRV",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:07.204Z"
+  },
+  {
+    "id": "1126050928677728",
+    "coordinates": [
+      23.2298181,
+      43.1271866
+    ],
+    "sequence": "iIFvHL1qBbwm39N8YAeWEZ",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:07.903Z"
+  },
+  {
+    "id": "1048334773556240",
+    "coordinates": [
+      23.7266418,
+      41.5729174
+    ],
+    "sequence": "lawXKQnqeHrmdCiyITZE3A",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:08.600Z"
+  },
+  {
+    "id": "1103691795526845",
+    "coordinates": [
+      24.786246,
+      42.7955922
+    ],
+    "sequence": "zEx9165XoaUuT7wfAFCYOL",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:09.302Z"
+  },
+  {
+    "id": "1133112081134478",
+    "coordinates": [
+      22.5237442,
+      43.8908706
+    ],
+    "sequence": "tKI5WbHQq74jN1RVGnxEkp",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:09.956Z"
+  },
+  {
+    "id": "1049117929540025",
+    "coordinates": [
+      23.9051769,
+      42.3851433
+    ],
+    "sequence": "e5fZR2xo3kQOd4jLMKC7IB",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:10.593Z"
+  },
+  {
+    "id": "1123414759794056",
+    "coordinates": [
+      25.3216087,
+      42.7483057
+    ],
+    "sequence": "7t2rRU3FHQMmqNGwLJsvT5",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:11.182Z"
+  },
+  {
+    "id": "1137540893984281",
+    "coordinates": [
+      23.7667266,
+      42.8020033
+    ],
+    "sequence": "g5P80bwI4BYo6rnF3xyOJe",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:11.791Z"
+  },
+  {
+    "id": "1052378236613887",
+    "coordinates": [
+      24.185349,
+      42.5083738
+    ],
+    "sequence": "7S5qTlkLO0yWtNwrK6H2Ym",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:12.397Z"
+  },
+  {
+    "id": "1126556471676610",
+    "coordinates": [
+      25.3218453,
+      42.6178517
+    ],
+    "sequence": "V0zjGCZkPOtKi8YE5seIwr",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:13.104Z"
+  },
+  {
+    "id": "1148458812814877",
+    "coordinates": [
+      23.7042351,
+      43.1398508
+    ],
+    "sequence": "E6BH4VFUvKuhlT5Jd70WnQ",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:13.875Z"
+  },
+  {
+    "id": "1056299906271611",
+    "coordinates": [
+      24.1566437,
+      41.9568794
+    ],
+    "sequence": "25JCpetry6XBOv7DnQaKmk",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:14.505Z"
+  },
+  {
+    "id": "1132561668025693",
+    "coordinates": [
+      25.158856,
+      42.5016619
+    ],
+    "sequence": "eB7hiVauETRAZcH8jdxNwk",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:15.261Z"
+  },
+  {
+    "id": "1150393582879024",
+    "coordinates": [
+      22.8160467,
+      43.7401096
+    ],
+    "sequence": "jdlTHv60KNbhfn8A9PWEt5",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:15.902Z"
+  },
+  {
+    "id": "1064005514717814",
+    "coordinates": [
+      23.1446052,
+      42.2490058
+    ],
+    "sequence": "72f3iFab4lKIORGPqBucdA",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:16.470Z"
+  },
+  {
+    "id": "1147233536909076",
+    "coordinates": [
+      24.4017782,
+      42.7371498
+    ],
+    "sequence": "EKiZyYCS6naVUQzjxguMIq",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:17.073Z"
+  },
+  {
+    "id": "1162347468246236",
+    "coordinates": [
+      22.6842868,
+      44.2054951
+    ],
+    "sequence": "VS15dIbJalpFLvGMqYW0wU",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:17.698Z"
+  },
+  {
+    "id": "1065093407939840",
+    "coordinates": [
+      24.1819443,
+      42.1293754
+    ],
+    "sequence": "PViUcXpKvIsotQdYySDFNL",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:18.362Z"
+  },
+  {
+    "id": "1169253197389447",
+    "coordinates": [
+      24.8327866,
+      42.5429572
+    ],
+    "sequence": "tDr8y9kaVlw6oqIJBOixZ4",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:19.156Z"
+  },
+  {
+    "id": "1065765485618024",
+    "coordinates": [
+      22.7773451,
+      42.585746
+    ],
+    "sequence": "18UptTgr32YEIZye6jvkO0",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:20.699Z"
+  },
+  {
+    "id": "1172334503784506",
+    "coordinates": [
+      25.1792397,
+      42.4776119
+    ],
+    "sequence": "ftyO4dVc82KLXme6I9ahTq",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:21.415Z"
+  },
+  {
+    "id": "1184907100054137",
+    "coordinates": [
+      23.9485187,
+      42.8835898
+    ],
+    "sequence": "K1zhWn0BDc6RLHgMQPxSiE",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:22.064Z"
+  },
+  {
+    "id": "1066212231475961",
+    "coordinates": [
+      22.9138342,
+      42.7881051
+    ],
+    "sequence": "lLViQpm5M8EZYGvSwTWOhj",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:22.723Z"
+  },
+  {
+    "id": "1179706319980633",
+    "coordinates": [
+      24.6788902,
+      41.6370886
+    ],
+    "sequence": "i2jT3mOHh6ewPVnbNIWS4o",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:23.266Z"
+  },
+  {
+    "id": "1233482668502403",
+    "coordinates": [
+      23.0718359,
+      42.9770458
+    ],
+    "sequence": "0msvG89nYkUdeX7Hw3RFWu",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:24.005Z"
+  },
+  {
+    "id": "1066966977869902",
+    "coordinates": [
+      23.119512,
+      42.0927316
+    ],
+    "sequence": "M20rzqFmUCLluypfQGDNo5",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:24.632Z"
+  },
+  {
+    "id": "1186475226031615",
+    "coordinates": [
+      26.1257716,
+      41.5286967
+    ],
+    "sequence": "aDdsnJ32gbKpVQwHW5Rh18",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:25.290Z"
+  },
+  {
+    "id": "1257597874866492",
+    "coordinates": [
+      24.0263892,
+      42.9258013
+    ],
+    "sequence": "atr3hjL2sQKVOAZU9yXbfk",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:25.989Z"
+  },
+  {
+    "id": "1067283441021155",
+    "coordinates": [
+      23.428445,
+      42.5556879
+    ],
+    "sequence": "f9hcYw0QaPyX4MimVgbNOE",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:26.633Z"
+  },
+  {
+    "id": "1226495971337583",
+    "coordinates": [
+      25.1958262,
+      42.6695192
+    ],
+    "sequence": "UjQ6tLFXGx9e1mVEqfd4Iz",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:27.320Z"
+  },
+  {
+    "id": "1270517394898016",
+    "coordinates": [
+      23.0011839,
+      42.9405374
+    ],
+    "sequence": "ZrpclqGYIjOKQ8EA9BR4M6",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:28.041Z"
+  },
+  {
+    "id": "1068081984255087",
+    "coordinates": [
+      23.1349532,
+      41.3202694
+    ],
+    "sequence": "VTJ3m5xWfXKYUwM1eqdhP2",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:28.720Z"
+  },
+  {
+    "id": "1228117272410486",
+    "coordinates": [
+      24.3482248,
+      42.7201473
+    ],
+    "sequence": "JKpiE3flh8HqONdtIRyaUe",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:29.455Z"
+  },
+  {
+    "id": "1275484347560281",
+    "coordinates": [
+      23.7910768,
+      42.907751
+    ],
+    "sequence": "6HfmwKdWkxchISpD4R1bXT",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:30.165Z"
+  },
+  {
+    "id": "1069306467454318",
+    "coordinates": [
+      23.2645363,
+      41.4495816
+    ],
+    "sequence": "G6qbiuIWRgcSEFwPQUTL7a",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:30.769Z"
+  },
+  {
+    "id": "1248381006833383",
+    "coordinates": [
+      24.2209968,
+      42.7317925
+    ],
+    "sequence": "Acr2plXEL3fOoN8IUDRTJq",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:31.378Z"
+  },
+  {
+    "id": "1298308561121864",
+    "coordinates": [
+      24.168915,
+      42.9753292
+    ],
+    "sequence": "j8ZGSbC3sqxgfoLJETXu5V",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:31.965Z"
+  },
+  {
+    "id": "1069348987724586",
+    "coordinates": [
+      22.5205864,
+      42.1585742
+    ],
+    "sequence": "Nq3uOBzVAoP8eFbJi4tvUD",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:32.606Z"
+  },
+  {
+    "id": "1256796806452057",
+    "coordinates": [
+      24.3410181,
+      41.6588534
+    ],
+    "sequence": "xJXrHPw4801qMgOlmKfYSp",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:33.221Z"
+  },
+  {
+    "id": "1304353460459030",
+    "coordinates": [
+      24.1626862,
+      43.2051812
+    ],
+    "sequence": "bikmpMXqfRKu9wcxnsy8T2",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:33.926Z"
+  },
+  {
+    "id": "1069775911337759",
+    "coordinates": [
+      22.9682685,
+      42.5508715
+    ],
+    "sequence": "Ukf6IDeHKXEQ2NnAzF9pmj",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:34.610Z"
+  },
+  {
+    "id": "1261998389287916",
+    "coordinates": [
+      25.577937,
+      42.0460287
+    ],
+    "sequence": "ZMUKSDJ90km3nyxCjdTBhi",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:35.342Z"
+  },
+  {
+    "id": "133274446412303",
+    "coordinates": [
+      24.0293978,
+      42.9557406
+    ],
+    "sequence": "pqjt0lH4iYNzU1ZsSL5BTI",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:35.950Z"
+  },
+  {
+    "id": "1071475043913518",
+    "coordinates": [
+      23.8585485,
+      42.7687732
+    ],
+    "sequence": "JHDxdOEUKncYikVZMRg6a9",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:36.581Z"
+  },
+  {
+    "id": "1267441294600080",
+    "coordinates": [
+      24.3042723,
+      42.0385969
+    ],
+    "sequence": "k0du5gERKslFIt7VrDTjUP",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:37.138Z"
+  },
+  {
+    "id": "1354133612487366",
+    "coordinates": [
+      22.7845499,
+      43.4290206
+    ],
+    "sequence": "wjNi6e3CaW8Kq0dBksrTDF",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:37.734Z"
+  },
+  {
+    "id": "1076959273547652",
+    "coordinates": [
+      23.4852626,
+      42.5522987
+    ],
+    "sequence": "bRfg2wISO8X5cQHyDYKo0m",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:38.510Z"
+  },
+  {
+    "id": "1307328836560097",
+    "coordinates": [
+      25.2015692,
+      42.5217822
+    ],
+    "sequence": "LcJwDHOado24pBAhUfMG1Z",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:39.282Z"
+  },
+  {
+    "id": "1376518889896520",
+    "coordinates": [
+      23.5831897,
+      43.1538143
+    ],
+    "sequence": "EOLFakpHMr3hqf6Px2cwjt",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:39.893Z"
+  },
+  {
+    "id": "1078616946970309",
+    "coordinates": [
+      22.8413053,
+      42.6387144
+    ],
+    "sequence": "5GKIczsnm3fDLHw8oP0yk9",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:40.594Z"
+  },
+  {
+    "id": "1400133134224773",
+    "coordinates": [
+      24.7610889,
+      42.0251112
+    ],
+    "sequence": "3JtaemhSF8XDAHR2nVfk5L",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:41.223Z"
+  },
+  {
+    "id": "1079124230427840",
+    "coordinates": [
+      23.2900352,
+      42.5370564
+    ],
+    "sequence": "7KRzm3MwdJUgre81kNL5Oc",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:42.610Z"
+  },
+  {
+    "id": "1402374878444548",
+    "coordinates": [
+      25.463658,
+      41.6137169
+    ],
+    "sequence": "V5JAXa48HmcRbydxUQtqCh",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:43.246Z"
+  },
+  {
+    "id": "1498655251003936",
+    "coordinates": [
+      23.5313971,
+      42.9108408
+    ],
+    "sequence": "tXfk4xBOdJr6l07QivqSaW",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:43.833Z"
+  },
+  {
+    "id": "1079715560197602",
+    "coordinates": [
+      23.9868989,
+      42.0435292
+    ],
+    "sequence": "zLrZVeUmgd5HpC6xcYOBRi",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:44.437Z"
+  },
+  {
+    "id": "1420570765996020",
+    "coordinates": [
+      25.9106547,
+      42.5141367
+    ],
+    "sequence": "xGZFVdyLC1qAwUOnmszI5K",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:45.083Z"
+  },
+  {
+    "id": "1525915918269897",
+    "coordinates": [
+      22.6306427,
+      44.0306264
+    ],
+    "sequence": "n4fTFPmvwkLEZWRz1SNQp9",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:45.683Z"
+  },
+  {
+    "id": "1080791670897750",
+    "coordinates": [
+      23.2059048,
+      41.6434961
+    ],
+    "sequence": "85DjH6esfp7CBgFNKEm0hQ",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:46.400Z"
+  },
+  {
+    "id": "1456904328539504",
+    "coordinates": [
+      24.5440764,
+      42.5122131
+    ],
+    "sequence": "KZA0UthgXQRkLGCIyeomnO",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:47.105Z"
+  },
+  {
+    "id": "1604676326757399",
+    "coordinates": [
+      23.7686062,
+      42.9519353
+    ],
+    "sequence": "B5kz9mgS7x8NP1L6ntKJEC",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:47.863Z"
+  },
+  {
+    "id": "1085234823797598",
+    "coordinates": [
+      22.9487864,
+      41.7851646
+    ],
+    "sequence": "HiqDZckp6OvgSzLhno3WM1",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:48.611Z"
+  },
+  {
+    "id": "1561308202225499",
+    "coordinates": [
+      25.4135469,
+      41.3959188
+    ],
+    "sequence": "ZabwsjUY5fHdCQMchA9KRN",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:49.295Z"
+  },
+  {
+    "id": "1619747032147604",
+    "coordinates": [
+      23.5144015,
+      42.9464697
+    ],
+    "sequence": "9E7WTX3qn6wj1Am84astKR",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:49.857Z"
+  },
+  {
+    "id": "1085648986276006",
+    "coordinates": [
+      22.571816,
+      42.3031071
+    ],
+    "sequence": "PM3ILGXnFxWrmODeJ5Tgih",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:50.547Z"
+  },
+  {
+    "id": "1607074226823679",
+    "coordinates": [
+      24.6390063,
+      41.6443609
+    ],
+    "sequence": "JY03wNb2Zsahn9fWPG7cDv",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:51.161Z"
+  },
+  {
+    "id": "180663091500487",
+    "coordinates": [
+      23.1956856,
+      42.8419852
+    ],
+    "sequence": "aTwEtDkrAFfCd2coK7ZO5x",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:51.864Z"
+  },
+  {
+    "id": "1087869772435494",
+    "coordinates": [
+      22.7124142,
+      42.7343355
+    ],
+    "sequence": "KpSYGWwI4yZH0dV3NcbtMB",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:52.479Z"
+  },
+  {
+    "id": "1900116597150172",
+    "coordinates": [
+      25.3267154,
+      42.2019769
+    ],
+    "sequence": "MSmd7P24BfylVbNkaDv30E",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:53.088Z"
+  },
+  {
+    "id": "1865606357346257",
+    "coordinates": [
+      23.271956,
+      42.9823036
+    ],
+    "sequence": "wMz7jVW0Qc8y51S6bNEdae",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:53.865Z"
+  },
+  {
+    "id": "1088527152785563",
+    "coordinates": [
+      23.9819885,
+      41.9992639
+    ],
+    "sequence": "58v9wqtYKIoa2SmNCTpfzQ",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:54.588Z"
+  },
+  {
+    "id": "2037148580546868",
+    "coordinates": [
+      24.921778,
+      42.7812148
+    ],
+    "sequence": "XMD3wET2iN80ZjaPfz6xSR",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:55.321Z"
+  },
+  {
+    "id": "2186325488405255",
+    "coordinates": [
+      24.0740685,
+      43.1685991
+    ],
+    "sequence": "80JrqT7eCNMuIhdBwyf3ZO",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:55.895Z"
+  },
+  {
+    "id": "1089531222330259",
+    "coordinates": [
+      23.5590573,
+      42.4583915
+    ],
+    "sequence": "3WdxPtA9VE4n8Y2ZCzTcfK",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:56.630Z"
+  },
+  {
+    "id": "2173937309788669",
+    "coordinates": [
+      24.3749401,
+      41.6931345
+    ],
+    "sequence": "2o6dGLjqPErafnlMbTJkpZ",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:57.351Z"
+  },
+  {
+    "id": "324368877353696",
+    "coordinates": [
+      23.6080827,
+      42.8723683
+    ],
+    "sequence": "0UjloVt1hiuymrOKqxdnp3",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:58.206Z"
+  },
+  {
+    "id": "1093548375679545",
+    "coordinates": [
+      24.0842889,
+      42.7042889
+    ],
+    "sequence": "FvS7PhjcDnYxGbJMKaL4m0",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:58.983Z"
+  },
+  {
+    "id": "342839568163781",
+    "coordinates": [
+      25.025147,
+      42.5052688
+    ],
+    "sequence": "pEd7gRi5o2Z6SN0AUDxfbP",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:06:59.656Z"
+  },
+  {
+    "id": "359179216910568",
+    "coordinates": [
+      23.0379222,
+      42.8517472
+    ],
+    "sequence": "rWTMDeu51NLqGhAb3XRilH",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:00.256Z"
+  },
+  {
+    "id": "1093683372472872",
+    "coordinates": [
+      22.7954494,
+      42.5456123
+    ],
+    "sequence": "WPM4XDsx9A1HmnrN7iFbga",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:00.809Z"
+  },
+  {
+    "id": "3774928549402444",
+    "coordinates": [
+      24.8930139,
+      42.3169404
+    ],
+    "sequence": "Vvs4fWGFDK7TNl2i1kM8LJ",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:01.442Z"
+  },
+  {
+    "id": "418935764280999",
+    "coordinates": [
+      23.1950626,
+      43.1369124
+    ],
+    "sequence": "ncutDkY46ghLl7iGRF1T3J",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:02.111Z"
+  },
+  {
+    "id": "1095465024928542",
+    "coordinates": [
+      23.6109543,
+      41.3832482
+    ],
+    "sequence": "9LuwhaSdm3ePZpACgk1of2",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:02.731Z"
+  },
+  {
+    "id": "386671381147356",
+    "coordinates": [
+      25.9026125,
+      41.6647236
+    ],
+    "sequence": "yc87oirnd2CSq1eWkLBKTZ",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:03.524Z"
+  },
+  {
+    "id": "424080993524968",
+    "coordinates": [
+      23.4717928,
+      42.9451065
+    ],
+    "sequence": "ZaH74dBvAJCbnwyEImUR9o",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:04.267Z"
+  },
+  {
+    "id": "1098464194830388",
+    "coordinates": [
+      23.8929443,
+      42.5445125
+    ],
+    "sequence": "WB7fQP4ZF6rN0jEnA5pOtJ",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:04.944Z"
+  },
+  {
+    "id": "398510333229265",
+    "coordinates": [
+      24.2655163,
+      42.0974992
+    ],
+    "sequence": "9AhKtXYEjZrRJWafI4FMkT",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:05.696Z"
+  },
+  {
+    "id": "478658051236419",
+    "coordinates": [
+      24.1840051,
+      43.0474596
+    ],
+    "sequence": "6BzrT7o2GFEtYNZUDI48eg",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:06.293Z"
+  },
+  {
+    "id": "1102952524823357",
+    "coordinates": [
+      22.7379439,
+      42.4675789
+    ],
+    "sequence": "SDnPwFh0EOz3oWH7vqJ2KC",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:07.037Z"
+  },
+  {
+    "id": "428856206734175",
+    "coordinates": [
+      24.7152614,
+      42.3833529
+    ],
+    "sequence": "PkvHcoR76BOQbI5NzXG1gM",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:07.604Z"
+  },
+  {
+    "id": "924276729641537",
+    "coordinates": [
+      23.6983477,
+      42.8875493
+    ],
+    "sequence": "r7TEYoI4QD8HtLyAhGCqs6",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:08.287Z"
+  },
+  {
+    "id": "1112168373615087",
+    "coordinates": [
+      23.1804246,
+      42.5007957
+    ],
+    "sequence": "rXmNLEt18Rf4Ajv7WiyKuF",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:08.987Z"
+  },
+  {
+    "id": "491758210177475",
+    "coordinates": [
+      25.2397644,
+      42.6301463
+    ],
+    "sequence": "lHrd98C7cbUnfXYWgGOkqV",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:09.762Z"
+  },
+  {
+    "id": "1113696746507551",
+    "coordinates": [
+      23.3811984,
+      42.3536024
+    ],
+    "sequence": "9tb3PrmcEegSR4WiLdx1U6",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:10.389Z"
+  },
+  {
+    "id": "551464310809699",
+    "coordinates": [
+      25.3283359,
+      42.7160195
+    ],
+    "sequence": "rYKF0AJbcpV8okU4vNOZI9",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:11.009Z"
+  },
+  {
+    "id": "1115125520121606",
+    "coordinates": [
+      22.5750174,
+      42.7060484
+    ],
+    "sequence": "0nQP5aW1ikHVLbj2yrGFAZ",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:11.582Z"
+  },
+  {
+    "id": "780142567562502",
+    "coordinates": [
+      24.9904722,
+      41.6221389
+    ],
+    "sequence": "FwIE1j8tJaXBcoZANvhPMC",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:12.167Z"
+  },
+  {
+    "id": "1120517335846796",
+    "coordinates": [
+      23.1229513,
+      42.5395082
+    ],
+    "sequence": "7C9aPSBZXKDHeG2xdmqrWF",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:12.804Z"
+  },
+  {
+    "id": "818352790514229",
+    "coordinates": [
+      25.8703668,
+      41.6435869
+    ],
+    "sequence": "Czo5ZvUu1RaVSKTLn2Dilp",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:13.453Z"
+  },
+  {
+    "id": "1120796872778921",
+    "coordinates": [
+      23.327828,
+      42.5248415
+    ],
+    "sequence": "Iea3dPYBRx51sQEzjJoTHp",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:14.146Z"
+  },
+  {
+    "id": "932663075016188",
+    "coordinates": [
+      24.9048432,
+      42.0159348
+    ],
+    "sequence": "jFX2Mh1zd4nYK5x3g9yAQu",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:14.842Z"
+  },
+  {
+    "id": "1123891515648663",
+    "coordinates": [
+      22.8152811,
+      42.7995586
+    ],
+    "sequence": "WlrqYfCj8wdMihS9FVpoH5",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:15.624Z"
+  },
+  {
+    "id": "961563005671128",
+    "coordinates": [
+      24.8308056,
+      42.2443056
+    ],
+    "sequence": "Xvb2RLnplrsYSBufQgU5VT",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:16.346Z"
+  },
+  {
+    "id": "1130462068318379",
+    "coordinates": [
+      22.5231908,
+      42.3839623
+    ],
+    "sequence": "ohSgW32nk5LDd7PXvCbe0x",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:16.948Z"
+  },
+  {
+    "id": "1142448736880075",
+    "coordinates": [
+      24.116304,
+      42.5371089
+    ],
+    "sequence": "n7ExlwASBok4GMOftiy3ds",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:17.543Z"
+  },
+  {
+    "id": "1142916583560285",
+    "coordinates": [
+      23.9225065,
+      42.64955
+    ],
+    "sequence": "0TLb34PDcSyXnEIjRhKeY2",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:18.155Z"
+  },
+  {
+    "id": "1143885007108893",
+    "coordinates": [
+      23.743128,
+      42.1837357
+    ],
+    "sequence": "kiph2HXON48KYSsVrodFq0",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:18.941Z"
+  },
+  {
+    "id": "1146268613925611",
+    "coordinates": [
+      23.5555862,
+      42.7714687
+    ],
+    "sequence": "iTudlamPHYDwK4qpJ9rB6b",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:19.670Z"
+  },
+  {
+    "id": "1146303183278423",
+    "coordinates": [
+      23.3515416,
+      42.2308856
+    ],
+    "sequence": "hyJeVEaQIcRlZguimK0pwW",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:20.260Z"
+  },
+  {
+    "id": "1151711543744909",
+    "coordinates": [
+      22.7642058,
+      42.7496524
+    ],
+    "sequence": "Z3RQhbPwOrjmeoAsG7UqLY",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:20.952Z"
+  },
+  {
+    "id": "1178002897822292",
+    "coordinates": [
+      23.5556611,
+      41.9508073
+    ],
+    "sequence": "TjCepqURtS2QJbwAXxmLIc",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:21.620Z"
+  },
+  {
+    "id": "1191406442534968",
+    "coordinates": [
+      23.3990797,
+      42.4928281
+    ],
+    "sequence": "oGVpgBjZNelvMwaiYH2rP8",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:22.248Z"
+  },
+  {
+    "id": "1192844664892825",
+    "coordinates": [
+      23.5814095,
+      42.0313623
+    ],
+    "sequence": "l9NQhbHBx640X7uKdypOGm",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:22.898Z"
+  },
+  {
+    "id": "1207083713917139",
+    "coordinates": [
+      24.0597256,
+      42.1257432
+    ],
+    "sequence": "lXRVx7EMs108TaNdrWoYSB",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:23.542Z"
+  },
+  {
+    "id": "1210856496643590",
+    "coordinates": [
+      22.8395145,
+      42.3440856
+    ],
+    "sequence": "SAUTKltOXDuFg4kv7r5IJx",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:24.323Z"
+  },
+  {
+    "id": "1210921699600094",
+    "coordinates": [
+      23.724628,
+      42.4831605
+    ],
+    "sequence": "EwCJug2IaMhFkqV7WbPAUY",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:25.026Z"
+  },
+  {
+    "id": "1222334699192412",
+    "coordinates": [
+      23.4092465,
+      41.8586614
+    ],
+    "sequence": "CzXfQSp0Kl9F7cav43N5yA",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:25.723Z"
+  },
+  {
+    "id": "1223868785464716",
+    "coordinates": [
+      23.1393619,
+      41.3982743
+    ],
+    "sequence": "RMEeFSokVnT0g9Hv3NXDd2",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:26.422Z"
+  },
+  {
+    "id": "1230097535708432",
+    "coordinates": [
+      23.5270979,
+      41.8851089
+    ],
+    "sequence": "tXvIl9wR8pPAfFzKkGqHb3",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:27.146Z"
+  },
+  {
+    "id": "1245954523817779",
+    "coordinates": [
+      23.8106945,
+      42.6534788
+    ],
+    "sequence": "n5syN1rUwKBZczeF2RHMmI",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:27.820Z"
+  },
+  {
+    "id": "1249642946181447",
+    "coordinates": [
+      23.2002657,
+      42.524528
+    ],
+    "sequence": "VEvncfTWZmJIGOzwP2yo0K",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:28.414Z"
+  },
+  {
+    "id": "1277035033686599",
+    "coordinates": [
+      22.7587649,
+      42.7979173
+    ],
+    "sequence": "kpyhLEKND5OmWljbgUCvTS",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:29.023Z"
+  },
+  {
+    "id": "1282228409100683",
+    "coordinates": [
+      23.5119788,
+      42.5810798
+    ],
+    "sequence": "powhEOdFDxVm9kXqAYlGt5",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:29.669Z"
+  },
+  {
+    "id": "1320832082421246",
+    "coordinates": [
+      23.9221164,
+      42.3569729
+    ],
+    "sequence": "u3LXQoZCnhzg1BcdlN7Yrs",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:30.472Z"
+  },
+  {
+    "id": "1337923443547255",
+    "coordinates": [
+      22.5560666,
+      42.1735099
+    ],
+    "sequence": "YtOZRbULdNJewSI6VT9h5m",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:31.139Z"
+  },
+  {
+    "id": "1339194973434391",
+    "coordinates": [
+      22.4405118,
+      42.5653957
+    ],
+    "sequence": "FJpNUYgWeOvCjIo8ucix73",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:31.831Z"
+  },
+  {
+    "id": "1355837741801833",
+    "coordinates": [
+      23.6144343,
+      41.4161185
+    ],
+    "sequence": "RY4zUfGdtpAF0DOlr5eMH6",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:32.483Z"
+  },
+  {
+    "id": "1401645724215158",
+    "coordinates": [
+      24.1808964,
+      42.6985342
+    ],
+    "sequence": "OvNuw9jWH42hFinlJt67VL",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:33.171Z"
+  },
+  {
+    "id": "141420998962510",
+    "coordinates": [
+      23.6641769,
+      42.4869945
+    ],
+    "sequence": "7f02UIpr3iEnDHCJmBwc5T",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:33.851Z"
+  },
+  {
+    "id": "1431209687792401",
+    "coordinates": [
+      22.6551295,
+      42.7010005
+    ],
+    "sequence": "iBdCRZk4locOjv6TrQDm7G",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:34.558Z"
+  },
+  {
+    "id": "1439049193554395",
+    "coordinates": [
+      23.8203021,
+      42.0367961
+    ],
+    "sequence": "f0BcR9AUELTnxsZXIzMrQV",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:35.275Z"
+  },
+  {
+    "id": "1440632309966404",
+    "coordinates": [
+      24.0754895,
+      42.3146559
+    ],
+    "sequence": "zFsXkqWGxbIaUA8pRMtc3S",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:35.975Z"
+  },
+  {
+    "id": "1448664412841861",
+    "coordinates": [
+      22.9241996,
+      41.969751
+    ],
+    "sequence": "UVXHfIYvgAW7CjuTa5KNiR",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:36.673Z"
+  },
+  {
+    "id": "1452064867116991",
+    "coordinates": [
+      23.3407488,
+      42.1339516
+    ],
+    "sequence": "NyrX0ajtvSd43KL7xi5oZ6",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:37.292Z"
+  },
+  {
+    "id": "1475995703265215",
+    "coordinates": [
+      24.0301729,
+      42.3167718
+    ],
+    "sequence": "L7CJqkS0IDEHU4ovaTPc9G",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:38.002Z"
+  },
+  {
+    "id": "1477035080001004",
+    "coordinates": [
+      22.8873674,
+      42.4912054
+    ],
+    "sequence": "kONzI3qKay85TQdXS0ioMb",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:38.608Z"
+  },
+  {
+    "id": "1520766431816423",
+    "coordinates": [
+      24.1487202,
+      42.3369434
+    ],
+    "sequence": "06eqxrsKv2BuzGjdXJ45F3",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:39.201Z"
+  },
+  {
+    "id": "1526553804617988",
+    "coordinates": [
+      23.5759351,
+      42.2192769
+    ],
+    "sequence": "pG3ra1Ut9eCmLTZFNWn0Bh",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:39.815Z"
+  },
+  {
+    "id": "1542205343230493",
+    "coordinates": [
+      23.2954856,
+      42.5098007
+    ],
+    "sequence": "nmjy5wWl1QzCJFg3rKOoNa",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:40.495Z"
+  },
+  {
+    "id": "1553266382073126",
+    "coordinates": [
+      22.9779985,
+      42.7896021
+    ],
+    "sequence": "8sXAYGZ56hSgft3cenq7jz",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:41.268Z"
+  },
+  {
+    "id": "1559909628179780",
+    "coordinates": [
+      23.6507904,
+      42.7719228
+    ],
+    "sequence": "2LDtSav6W7qpK3mXheIVrs",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:41.893Z"
+  },
+  {
+    "id": "1574933020210069",
+    "coordinates": [
+      23.5277892,
+      41.9213469
+    ],
+    "sequence": "KfjT6F4P897R3ewSGXm0YN",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:42.490Z"
+  },
+  {
+    "id": "1582694555809976",
+    "coordinates": [
+      23.6528527,
+      42.4569027
+    ],
+    "sequence": "jaKrVCN4ROwW7HQyoAUL0q",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:43.162Z"
+  },
+  {
+    "id": "1646762792850542",
+    "coordinates": [
+      22.8206053,
+      42.3694672
+    ],
+    "sequence": "tWAHP490IXYkUosCmjSDvr",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:43.881Z"
+  },
+  {
+    "id": "1647567705948099",
+    "coordinates": [
+      22.4392851,
+      42.3112558
+    ],
+    "sequence": "I0kMcZLAQ6yrfGtmzulOUN",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:44.515Z"
+  },
+  {
+    "id": "1683106745774508",
+    "coordinates": [
+      22.9763873,
+      42.159917
+    ],
+    "sequence": "Xber6Nfl2doEC8awvZBL49",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:45.097Z"
+  },
+  {
+    "id": "1711614432582598",
+    "coordinates": [
+      23.8525958,
+      42.5495525
+    ],
+    "sequence": "HyD7XWRip9hb0dmurtwkMA",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:45.805Z"
+  },
+  {
+    "id": "1720830868564503",
+    "coordinates": [
+      24.1433868,
+      42.6950239
+    ],
+    "sequence": "256D4koM1FOtV8zl7rudqh",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:46.608Z"
+  },
+  {
+    "id": "1763274994464037",
+    "coordinates": [
+      22.5511499,
+      42.5140915
+    ],
+    "sequence": "JRCqlLuNw1SOhAPGQs32g9",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:47.385Z"
+  },
+  {
+    "id": "1764091564128811",
+    "coordinates": [
+      23.3271563,
+      41.8865215
+    ],
+    "sequence": "yT1GbWqohwmAYL9n3pzBfj",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:48.061Z"
+  },
+  {
+    "id": "1771277110933860",
+    "coordinates": [
+      22.864085,
+      42.5196527
+    ],
+    "sequence": "vDcZt8V9lEIUfuWew1KQL2",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:48.720Z"
+  },
+  {
+    "id": "178492582024655",
+    "coordinates": [
+      24.0430994,
+      42.6485298
+    ],
+    "sequence": "RnYwIohT7ZkJGErv49NSAs",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:49.480Z"
+  },
+  {
+    "id": "2304814843051445",
+    "coordinates": [
+      22.4824074,
+      42.5755332
+    ],
+    "sequence": "oDi1p4JTOAjXFLmEPgzqwZ",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:50.169Z"
+  },
+  {
+    "id": "2358176247708208",
+    "coordinates": [
+      22.6241883,
+      42.1947608
+    ],
+    "sequence": "KTvxk34uSRM9sdzXfG7qOY",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:50.725Z"
+  },
+  {
+    "id": "239183342583888",
+    "coordinates": [
+      23.4158351,
+      41.4988317
+    ],
+    "sequence": "mSUI76poCA549PkfuWjVdb",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:51.377Z"
+  },
+  {
+    "id": "274813862130567",
+    "coordinates": [
+      23.0286207,
+      41.3947025
+    ],
+    "sequence": "xUZKkzTFY5w6yCrQtDo41G",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:52.087Z"
+  },
+  {
+    "id": "2776649855865629",
+    "coordinates": [
+      23.3706463,
+      41.65548
+    ],
+    "sequence": "Z2bFeDyxfvTWSmP4nkUuOo",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:52.874Z"
+  },
+  {
+    "id": "327513660373333",
+    "coordinates": [
+      22.7944896,
+      42.7248065
+    ],
+    "sequence": "o4PZa7knUJqeBd580S2CYV",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:53.488Z"
+  },
+  {
+    "id": "3655483191447088",
+    "coordinates": [
+      23.6698943,
+      42.4282871
+    ],
+    "sequence": "obxVJWj7zaKehIy8RXUplu",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:54.310Z"
+  },
+  {
+    "id": "3657461527864304",
+    "coordinates": [
+      23.4737151,
+      41.969109
+    ],
+    "sequence": "YySrXxdjvpZ1Bz7iAfmGQ0",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:54.977Z"
+  },
+  {
+    "id": "3829182744041884",
+    "coordinates": [
+      23.4701576,
+      41.8006887
+    ],
+    "sequence": "cVtiWbRJkK7LwdfAF2vCGM",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:55.548Z"
+  },
+  {
+    "id": "442548785075246",
+    "coordinates": [
+      23.1365422,
+      42.2909192
+    ],
+    "sequence": "xS29ZvHiYh5CaIEKNjwMFL",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:56.120Z"
+  },
+  {
+    "id": "481417877598486",
+    "coordinates": [
+      23.8083872,
+      42.1762038
+    ],
+    "sequence": "Ki7Z5YDoQJrwBX2Pe4WaIh",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:56.839Z"
+  },
+  {
+    "id": "519671413907073",
+    "coordinates": [
+      24.0550393,
+      42.5107182
+    ],
+    "sequence": "wy53qAdXeWBsr1DLGOF02T",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:57.540Z"
+  },
+  {
+    "id": "681798284497284",
+    "coordinates": [
+      24.1037885,
+      42.2442262
+    ],
+    "sequence": "M8s5uVcAHTv6fBNXdYjpS3",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:58.240Z"
+  },
+  {
+    "id": "683538501317332",
+    "coordinates": [
+      22.4007996,
+      42.3155405
+    ],
+    "sequence": "j1XJFQ39sEITZOYm5WMkbh",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:58.922Z"
+  },
+  {
+    "id": "736488129520311",
+    "coordinates": [
+      23.5802753,
+      41.9176801
+    ],
+    "sequence": "X2zS3LZcGRUaBtKnkP5OIy",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:07:59.522Z"
+  },
+  {
+    "id": "788361300199053",
+    "coordinates": [
+      22.8745711,
+      41.9867914
+    ],
+    "sequence": "udSaonGis5jUfp6A4I8R2V",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:00.168Z"
+  },
+  {
+    "id": "8489038917818999",
+    "coordinates": [
+      22.9539462,
+      41.396031
+    ],
+    "sequence": "ZfGeAN6SLjcWsdi9lBrw7Y",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:00.880Z"
+  },
+  {
+    "id": "863276242399970",
+    "coordinates": [
+      22.9636239,
+      42.5939435
+    ],
+    "sequence": "EuSAtHYK93z0TBospkvmMP",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:01.494Z"
+  },
+  {
+    "id": "929762122210292",
+    "coordinates": [
+      23.3981359,
+      41.5225443
+    ],
+    "sequence": "uIEhNAmbeSJOQK4sHp7Xcx",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:02.069Z"
+  },
+  {
+    "id": "934973200932669",
+    "coordinates": [
+      23.5530067,
+      41.9841681
+    ],
+    "sequence": "eTairxuVH14svDqO8QY2bU",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:02.825Z"
+  },
+  {
+    "id": "736717622351215",
+    "coordinates": [
+      23.5670406,
+      41.885315
+    ],
+    "sequence": "tXvIl9wR8pPAfFzKkGqHb3",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:30.442Z"
+  },
+  {
+    "id": "8232985006806653",
+    "coordinates": [
+      24.19486318103,
+      41.863104953717
+    ],
+    "sequence": "HSVIwKmZxkrCgXiyecPaWu",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:34.393Z"
+  },
+  {
+    "id": "670703821847862",
+    "coordinates": [
+      24.8756667,
+      42.2606389
+    ],
+    "sequence": "Xvb2RLnplrsYSBufQgU5VT",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:35.653Z"
+  },
+  {
+    "id": "1423038095022608",
+    "coordinates": [
+      25.991569629227,
+      43.727167350275
+    ],
+    "sequence": "XEo9TvG2kPdBSKypxMAmJb",
+    "region": "North Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:37.073Z"
+  },
+  {
+    "id": "4423336051225228",
+    "coordinates": [
+      23.7374517,
+      41.4119138
+    ],
+    "sequence": "ApKR7YWzVB9woxDGksmXUv",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:38.584Z"
+  },
+  {
+    "id": "1491309735598030",
+    "coordinates": [
+      26.4696794,
+      42.5169727
+    ],
+    "sequence": "WholjHd39mzugYyEFeSXKJ",
+    "region": "Southeast",
+    "environment": "unknown",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:43.563Z"
+  },
+  {
+    "id": "1222742832590312",
+    "coordinates": [
+      23.2017168,
+      42.8860272
+    ],
+    "sequence": "zU6d01hsMQO4kgcPWE9Goj",
+    "region": "Northwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:46.040Z"
+  },
+  {
+    "id": "2409562239443112",
+    "coordinates": [
+      23.5240528,
+      42.7953165
+    ],
+    "sequence": "tGogypadFnJi2Eu0Z1BWKs",
+    "region": "Southwest",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:08:47.431Z"
+  },
+  {
+    "id": "1301037394258316",
+    "coordinates": [
+      22.68403613727,
+      42.283661551208
+    ],
+    "sequence": "NbDcZRi4rpAT1welakgvME",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:10:07.769Z"
+  },
+  {
+    "id": "1134651051999442",
+    "coordinates": [
+      22.659724917014,
+      42.280551426454
+    ],
+    "sequence": "07834mLJXVcgvsGjh6zx1I",
+    "region": "Southwest",
+    "environment": "urban",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:10:20.656Z"
+  },
+  {
+    "id": "2576614049433937",
+    "coordinates": [
+      24.6743111,
+      42.728563
+    ],
+    "sequence": "D7CQOGrV9IuhtTxdg0Yja3",
+    "region": "South Central",
+    "environment": "rural",
+    "cameraType": "spherical",
+    "verification": "metadata",
+    "verifiedAt": "2026-11-24T19:10:23.228Z"
+  }
+]

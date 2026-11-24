@@ -3,4 +3,6 @@
 !.env.example
 node_modules/
 dist/
+.cache/
+supabase/.temp/
 .DS_Store
